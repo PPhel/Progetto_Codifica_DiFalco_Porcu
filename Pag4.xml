@@ -24,3 +24,16 @@
     <lb xml:id="r7p4" facs="#p4r7" n="7" break="no" />
     (Firma:) Benvenuto Terracini.
 </ab>
+
+<!--
+<surface>
+<graphic url='4.jpg' width='806.4px' height='1024.4px' />
+<zone ulx="98" uly="112" lrx="728" lry="144" />
+<zone ulx="98" uly="153" lrx="729" lry="176" />
+<zone ulx="99" uly="181" lrx="358" lry="201" />
+<zone ulx="118" uly="208" lrx="685" lry="230" />
+<zone ulx="100" uly="235" lrx="719" lry="256" />
+<zone ulx="103" uly="263" lrx="536" lry="285" />
+<zone ulx="315" uly="305" lrx="506" lry="330" />
+</surface>
+-->
