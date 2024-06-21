@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <!-- 
-    Raccolta di alcune lettere della corrispondenza di Amalia Segre Artom
+    Raccolta di alcune lettere della corrispondenza di Amalia Segre
     Filename:index.xml
     Authors:Filippo Di Falco and Luca Porcu
     Date: 2024-07
@@ -9,10 +9,52 @@
     <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader xml:lang="it">
 
-            
-            <fileDesc>
+            <!--  fileDesc contiene la descrizione accurata del file-->
+              <fileDesc>
+
+                <!--  titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore-->
+                <titleStmt>
+                    <title type="main">Lettere di Amalia Segre Artom</title>
+                    <title type="main">Lettere scritte tra 1940 e 1945</title>
+                    <author role="author" ref="#AS">Amalia Segre</author>
+                </titleStmt>
+
+                <!--  in editionStmt inseriamo tutte le informazioni sull'edizione del testo-->
+                <editionStmt>
+                    <edition> Edizione digitale per l'esame di Codifica di Testi
+                    <date when="07-2024">Luglio 2024</date>
+                    </edition>
 
                 
+                    <respStmt>
+                        <resp>Progetto coordinato da:</resp>
+                              <name ref="#AMDG">Angelo Mario del Grosso</name>
+                    </respStmt>
+
+                    <respStmt>
+                       <resp>Codifica e trascrizione a cura di:</resp>
+                       <name ref="#FD">Filippo Di Falco</name>
+                       <name ref="#LP">Luca Porcu</name>
+                    </respStmt>
+
+                    <!--  sourceDesc viene utilizzato per informazioni riguardante la fonte originale-->
+                      <sourceDesc>
+                        <bibl>
+                            <title type="main">Lettere</title>
+                            <author>
+                                <persName ref="#AS">
+                                    <forename>Amalia</forename>
+                                    <surname>Segre</surname>
+                                </persName>
+                            </author>
+
+
+                        </bibl>
+
+
+                    </sourceDesc>
+                </editionStmt>
+
             </fileDesc>       
         </teiHeader>
     </TEI>
