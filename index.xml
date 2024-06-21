@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- 
+    Raccolta di alcune lettere della corrispondenza di Amalia Segre Artom
+    Filename:index.xml
+    Authors:Filippo Di Falco and Luca Porcu
+    Date: 2024-07
+-->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader xml:lang="it">
+
+            
+            <fileDesc>
+
+                
+            </fileDesc>       
+        </teiHeader>
+    </TEI>
