@@ -6,55 +6,79 @@
     Authors:Filippo Di Falco and Luca Porcu
     Date: 2024-07
 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0">
-        <teiHeader xml:lang="it">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <!-- fileDesc contiene la descrizione accurata del file -->
+        <fileDesc>
+            <!-- titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore -->
+            <titleStmt>
+                <title type="main">Lettere di Amalia Segre</title>
+                <title type="sub">Lettere scritte tra 1940 e 1945</title>
+                <author role="author" ref="#AS">Amalia Segre</author>
+            </titleStmt>
 
-            <!--  fileDesc contiene la descrizione accurata del file-->
-              <fileDesc>
-
-                <!--  titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore-->
-                <titleStmt>
-                    <title type="main">Lettere di Amalia Segre Artom</title>
-                    <title type="main">Lettere scritte tra 1940 e 1945</title>
-                    <author role="author" ref="#AS">Amalia Segre</author>
-                </titleStmt>
-
-                <!--  in editionStmt inseriamo tutte le informazioni sull'edizione del testo-->
-                <editionStmt>
-                    <edition> Edizione digitale per l'esame di Codifica di Testi
-                    <date when="07-2024">Luglio 2024</date>
-                    </edition>
-
+            <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
+            <editionStmt>
+                <edition> Edizione digitale per l'esame di Codifica di Testi
+                    <date when="2024-07">Luglio 2024</date>
+                </edition>
                 
-                    <respStmt>
-                        <resp>Progetto coordinato da:</resp>
-                              <name ref="#AMDG">Angelo Mario del Grosso</name>
-                    </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da:</resp>
+                    <name ref="#AMDG">Angelo Mario del Grosso</name>
+                </respStmt>
 
-                    <respStmt>
-                       <resp>Codifica e trascrizione a cura di:</resp>
-                       <name ref="#FD">Filippo Di Falco</name>
-                       <name ref="#LP">Luca Porcu</name>
-                    </respStmt>
+                <respStmt>
+                    <resp>Codifica e trascrizione a cura di:</resp>
+                    <name ref="#FD">Filippo Di Falco</name>
+                    <name ref="#LP">Luca Porcu</name>
+                </respStmt>
+            </editionStmt>
 
-                    <!--  sourceDesc viene utilizzato per informazioni riguardante la fonte originale-->
-                      <sourceDesc>
-                        <bibl>
+            <!-- sourceDesc viene utilizzato per informazioni riguardante la fonte originale -->
+            <sourceDesc>
+                <bibl>
+                    <title type="main">Lettere</title>
+                    <author>
+                        <persName ref="#AS">
+                            <forename>Amalia</forename>
+                            <surname>Segre</surname>
+                        </persName>
+                    </author>
+                    <distributor>
+                        <orgName full="yes" ref="#CDEC">Fondazione Centro di Documentazione Ebraica Contemporanea</orgName>
+                    </distributor>
+                    <pubPlace ref="#MI">Milano</pubPlace>
+                    <availability status="free">
+                        <p>Opera a libero accesso</p>
+                    </availability>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT" type="nation">Italia</country>
+                        <settlement type="city" ref="#MI">Milano</settlement>
+                        <institution ref="#CDEC">
+                            <orgName full="yes" ref="#CDEC">Fondazione Centro di Documentazione Ebraica Contemporanea</orgName>
+                        </institution>
+                        <repository role="history institute" ref="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000081/corrispondenza-amalia-segre-artom.html">
+                            <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName>
+                        </repository>
+                        <collection>Fondo Emanuele Artom</collection>
+                        <idno></idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        
+                        <msItems>
+                            
                             <title type="main">Lettere</title>
-                            <author>
-                                <persName ref="#AS">
-                                    <forename>Amalia</forename>
-                                    <surname>Segre</surname>
-                                </persName>
-                            </author>
 
+                        </msItems>
 
-                        </bibl>
-
-
-                    </sourceDesc>
-                </editionStmt>
-
-            </fileDesc>       
-        </teiHeader>
-    </TEI>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>       
+    </teiHeader>
+</TEI>
