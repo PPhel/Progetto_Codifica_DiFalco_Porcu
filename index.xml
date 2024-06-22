@@ -69,14 +69,39 @@
                     </msIdentifier>
 
                     <msContents>
-                        
                         <msItems>
-                            
                             <title type="main">Lettere</title>
-
                         </msItems>
-
                     </msContents>
+
+                    <phyDesc>
+                        <objectDesc form="manoscript">
+                            <supportDesc material="paper" source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000081/corrispondenza-amalia-segre-artom.html">
+                                <support>fogli di <material>carta</material></support>
+                                <extent>
+                                    <measure unit="pages" quantity="140">
+                                        Il manoscritto è composto da<num>140 pagine</num>
+                                    </measure>
+                                </extent>
+                                <condition>
+                                    Il manoscritto si presenta in buone condizioni generali, qualche pezzo di carta stropicciato, ma condizioni buone, anche sulle lettere più anziane
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="5 30">
+                                    Generalmente le pagine presentano dalle 20 alle 30 righe ciascuna, ma alcune sono più corte, con minime di 5 righe.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1"></handDesc>
+                        <typeDesc>
+                            <p> Alcune lettere sono scritte con macchina da scrivere, ben leggibili nonostante alcune correzioni a penna. Altre, scritte in corsivo a penna, risultano di comprensione maggiormente difficile, anche a causa di alcune correzioni</p>
+                        </typeDesc>
+                    </phyDesc>
+                    <history>
+                        <origin from="1940-02-06" to="1945-06-02"></origin>
+                        <p> Le lettere sono state scritte da <persName>Amalia Segre</persName> il 6 Febbraio 1940 e il 2 Giugno 1945</p>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>       
