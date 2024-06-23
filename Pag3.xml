@@ -87,3 +87,37 @@
     <lb xml:id="r28p3" facs="#p3r28" n="28" break="no" />
     e per vero gli rimaneva aperta la via maestra: la via del puro ideale.
 </ab>
+
+<!--
+<surface>
+<graphic url='3.jpg' width='806.4px' height='1024.4px' />
+<zone ulx="102" uly="112" lrx="733" lry="130" />
+<zone ulx="108" uly="146" lrx="731" lry="160" />
+<zone ulx="108" uly="172" lrx="729" lry="187" />
+<zone ulx="106" uly="199" lrx="733" lry="215" />
+<zone ulx="107" uly="227" lrx="738" lry="244" />
+<zone ulx="105" uly="255" lrx="749" lry="270" />
+<zone ulx="108" uly="290" lrx="745" lry="303" />
+<zone ulx="112" uly="326" lrx="718" lry="342" />
+<zone ulx="109" uly="360" lrx="205" lry="378" />
+<zone ulx="123" uly="388" lrx="737" lry="402" />
+<zone ulx="105" uly="417" lrx="757" lry="429" />
+<zone ulx="109" uly="440" lrx="755" lry="458" />
+<zone ulx="107" uly="465" lrx="728" lry="480" />
+<zone ulx="109" uly="496" lrx="741" lry="509" />
+<zone ulx="109" uly="522" lrx="721" lry="536" />
+<zone ulx="109" uly="549" lrx="735" lry="558" />
+<zone ulx="108" uly="573" lrx="745" lry="593" />
+<zone ulx="109" uly="602" lrx="731" lry="614" />
+<zone ulx="109" uly="631" lrx="746" lry="645" />
+<zone ulx="110" uly="663" lrx="749" lry="683" />
+<zone ulx="109" uly="700" lrx="753" lry="714" />
+<zone ulx="111" uly="736" lrx="745" lry="750" />
+<zone ulx="141" uly="764" lrx="730" lry="775" />
+<zone ulx="110" uly="786" lrx="738" lry="800" />
+<zone ulx="111" uly="816" lrx="729" lry="826" />
+<zone ulx="107" uly="838" lrx="751" lry="855" />
+<zone ulx="110" uly="865" lrx="744" lry="880" />
+<zone ulx="111" uly="897" lrx="745" lry="908" />
+</surface>
+-->
