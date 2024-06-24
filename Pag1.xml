@@ -5,7 +5,7 @@
      <pb xml:id="p1" facs="#s1"/>
      <!--Riga 1. Iniziamo con la data della lettera-->
      <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
-     Torino, <date when="1940-12-8">8 dicembre 1940.</date>
+     <placeName ref="#TO">Torino<settlement></settlement></placeName>,<date when="1940-12-8">8 dicembre 1940.</date>
      <!-- Riga 2-->
      <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
      L'onda dei ricordi si acqueta nei nostri cuori, si addolcisce il
