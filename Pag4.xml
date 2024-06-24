@@ -9,7 +9,7 @@
     <lb xml:id="r2p4" facs="#p4r2" n="2" break="no" />
     sogni della mia giovinezza studiosa. Si congedò con un sorriso, e fu
     <!-- Riga 3-->
-    <lb xml:id="r3p4" facs="#p4r3" n="3" break="no" />
+    <lb xml:id="r3p4" facs="#p4r3" n="3" break="yes" />
     l'ultima volta che lo vidi.
     <!-- Riga 4 -->
     <lb xml:id="r4p4" facs="#p4r4" n="4" break="no" />
@@ -21,8 +21,8 @@
     <lb xml:id="r6p4" facs="#p4r6" n="6" break="no" />
     per questo mille volte benedetta la Sua memoria!
     <!-- Riga 7 -->
-    <lb xml:id="r7p4" facs="#p4r7" n="7" break="no" />
-    (Firma:) Benvenuto Terracini.
+    <lb xml:id="r7p4" facs="#p4r7" n="7" break="yes" />
+    Benvenuto Terracini.
 </ab>
 
 <!--
