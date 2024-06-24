@@ -4,8 +4,8 @@
     <!-- Inizio della pagina-->
      <pb xml:id="p1" facs="#s1"/>
      <!--Riga 1. Iniziamo con la data della lettera-->
-     <lb xml:id="r1p1" facs="#p1r1" n="1" break="no"/>
-     <date when="1940-2-6">6 Febbraio 1940</date>
+     <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
+     <date when="1940-12-8">8 dicembre 1940</date>
      <!-- Riga 2-->
      <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
      L'onda dei ricordi si acqueta nei nostri cuori, si addolcisce il
@@ -19,12 +19,12 @@
      <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
      penetrare per un momento nel segreto del loro dolore -rimane negli a=
      <!-- Riga 6-->
-     <lb xml:id="r6p1" facs="#p1r6" n="6" break="no"/>
+     <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
      nimi una pacata serenità.
      <!-- Riga 7-->
      <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/>
-     <!-- Riga 8-->
      <corr>Perch+</corr><!--  Parola corretta a penna-->, di improvviso, io non posso pensare al povero Ennio, senza
+     <!-- Riga 8-->
      <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
      che mi venga incontro la Sua figura come è nel ricordo più antico che
      <!-- Riga 9 -->
@@ -40,7 +40,7 @@
      <lb xml:id="r10p1" facs="#p1r10" n="12" break="no"/>
      pace dell'alpe , quella pace che, assieme al volto paterno ,cullò il
      <!-- Riga 13 -->
-     <lb xml:id="r10p1" facs="#p1r10" n="13" break="no"/>
+     <lb xml:id="r10p1" facs="#p1r10" n="13" break="yes"/>
      Suo sguardo si chiuse alla grande ombra.
      <!-- Riga 14 -->
      <lb xml:id="r10p1" facs="#p1r10" n="14" break="no"/>
@@ -49,7 +49,7 @@
      <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
      cola biblioteca, perchè il destino ha consentito a questo fanciullo di
      <!-- Riga 16 -->
-     <lb xml:id="r16p1" facs="#p1r16" n="16" break="no"/>
+     <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
      dere qui la prova più complessa ,più ardua della Sua maturità precoce.
      <!-- Riga 17 -->
      <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
@@ -73,7 +73,7 @@
      <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
      zione giovanile, da questa passò poi ai giovani dell'Honeg Shebbth, e
      <!-- Riga 24 -->
-     <lb xml:id="r24p1" facs="#p1r24" n="24" break="no"/>
+     <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
      da essi passò finalmente ai giovanissimi.
      <!-- Riga 25 -->
      <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
