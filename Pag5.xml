@@ -3,11 +3,11 @@
     <!-- Inizio della pagina-->
     <pb xml:id="p5" facs="#s5"/>
     <!-- Riga 1, si inizia con alcuni dati dell'associazione di riferimento-->
-    <lb xml:id="r1p5" facs="#p5r1" n="1" break="no"/>
+    <lb xml:id="r1p5" facs="#p5r1" n="1" break="yes"/>
     Comitato assistenza ebraica
     <!-- Riga 2, molto complessa, personalmente credo sia rivedibile-->
-    <lb xml:id="r2p5" facs="#p5r2" n="2" break="no"/>
-    <date when="1945-6-2">Torino, 2 Giugno 1945</date>
+    <lb xml:id="r2p5" facs="#p5r2" n="2" break="yes"/>
+    <placeName ref="#TO">Torino<settlement></settlement></placeName>,<date when="1945-6-2">2 Giugno 1945</date>
     <!-- Riga 3-->
     <lb xml:id="r3p5" facs="#p5r3" n="3" break="no"/>
     Cuneo
@@ -19,7 +19,7 @@
     TELEF. 184<!-- Cambio di grafia-->Gentili Signori
     <!-- Riga 6-->
     <lb xml:id="r6p5" facs="#p5r6" n="6" break="no"/>
-    con profondo dolore appresi , tempo addietro, la notizia dell'eroica
+    con profondo dolore appresi , tempo addietro, la notizia dell<pc type="apostrophe">'</pc>eroica
     <!-- Riga 7-->
     <lb xml:id="r7p5" facs="#p5r7" n="7" break="no"/>
     morte di Lele. Avevo per lui una grande amicizia, nata non
@@ -126,17 +126,3 @@
 <zone ulx="37" uly="934" lrx="672" lry="981" />
 </surface>
 -->
-
-
-     
-
-    
-
-
-
-
-
-
-
-
-    
