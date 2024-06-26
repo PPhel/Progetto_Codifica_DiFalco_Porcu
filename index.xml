@@ -97,10 +97,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                           <typeDesc>
-                            <p> Alcune lettere sono scritte con macchina da scrivere, ben leggibili nonostante alcune correzioni a penna. Altre, scritte in corsivo a penna, risultano di comprensione maggiormente difficile, anche a causa di alcune correzioni</p>
-                            </typeDesc>
+                            <handNote></handNote>
+                           
                         </handDesc>
+
+                        <typeDesc>
+                            <p> Alcune lettere sono scritte con macchina da scrivere, ben leggibili nonostante alcune correzioni a penna. Altre, scritte in corsivo a penna, risultano di comprensione maggiormente difficile, anche a causa di alcune correzioni</p>
+                        </typeDesc>
 
                     </physDesc>
 
@@ -119,10 +122,17 @@
 
             <editorialDecl>
                 <correction method="markup" status="high">
-
+                    
+                    <p> gli errori</p>
                 
                 </correction>
                 <normalization method="markup">
+                    
+                    
+                    
+                    
+                    <p> </p>
+
 
 
                 </normalization>
@@ -142,9 +152,43 @@
                 </langUsage>
                 <textDesc>
                     <channel mode="w"/>
+                    <constitution>
 
+                    </constitution>
+                    
+                    
+                    <derivation type="original"></derivation>
+
+                    <factuality type="fact"/>
+
+                    
+                    <interaction />
+
+                    <preparedness/>
+
+                    <purpose/>
 
                 </textDesc>
+
+                <creation>
+
+                    <listChange>
+                        <change when="1940-12-10" who="#AS">
+                            Le pagine<ref target="#p1">1</ref>,<ref target="#p2">2</ref>, <ref target="#p3">3</ref>e <ref target="#p4">4</ref> sono state scritte il <date when="1940-12-06">6 Dicembre 1940</date>
+                        </change>
+
+                        <change when="1945-06-02" who="#AS">
+                            La pagina<ref target="#p5">5</ref>+ stat scritta il <date when="1945-06-02">2 Giugno 1945</date>
+
+                        </change>
+                        
+                        
+                    </listChange>
+
+
+                </creation>
+
+
 
 
              </profileDesc>
@@ -312,4 +356,6 @@
 
 
      </facsimile>
+
+
 </TEI>
