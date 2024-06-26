@@ -13,10 +13,29 @@
         <fileDesc>
             <!-- titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore -->
             <titleStmt>
-                <title type="main">Lettere di Amalia Segre</title>
-                <title type="sub">Lettere scritte tra 1940 e 1945</title>
-                <author role="author" ref="#AS">Amalia Segre</author>
+                <title type="main">Lettere della raccolta di Amalia Segre Artom</title>
+                <title type="sub">Scritte tra 1940 e 1945</title>
+                <author role="author" ref="#BT">Benvenuto Terracini</author>
+                <author role="auhtor" ref="#BS">Bruno Segre</author>
             </titleStmt>
+
+            <editionStmt>
+                <!-- Da rivedere!!-->
+
+                
+                
+                <edition n="1">Edizione Accademica</edition>
+
+                <respStmt>
+                    <resp> A cura di:</resp>
+                    <name>Filippo Di Falco</name>
+                     <name>Luca Porcu</name>
+
+
+
+                </respStmt>
+
+            </editionStmt>
 
             <extent>
 
@@ -51,6 +70,7 @@
                     <name ref="#FD">Filippo Di Falco</name>
                     <name ref="#LP">Luca Porcu</name>
                 </respStmt>
+                
             </editionStmt>
 
             <!-- sourceDesc viene utilizzato per informazioni riguardante la fonte originale -->
@@ -58,8 +78,12 @@
                 <bibl>
                     <title type="main">Lettere</title>
                     <author>
-                        <persName ref="#AS">
-                            <forename>Amalia</forename>
+                        <persName ref="#BT">
+                            <forename>Benvenuto</forename>
+                            <surname>Terracini</surname>
+                        </persName>
+                        <persName ref="#BS">
+                            <forename>Bruno</forename>
                             <surname>Segre</surname>
                         </persName>
                     </author>
@@ -125,8 +149,18 @@
                     </physDesc>
 
                     <history>
-                        <origin from="1940-02-06" to="1945-06-02"></origin>
+                        <summary>
+
+                        </summary>
+                        <origin from="1940-02-06" to="1945-06-02">
                         <p> Le lettere sono state scritte da <persName>Amalia Segre</persName> il 6 Febbraio 1940 e il 2 Giugno 1945</p>
+                        </origin>
+
+                        <acquisition>
+                            
+                            <p>Questa raccolta di lettere a cura di <persName ref="#ASA">Amalia Segre Artom</persName></p>
+
+                        </acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -158,10 +192,26 @@
 
 
                 </punctuation>
+
+                
+                <hyphenation eol="all">
+                    
+                    <p></p>
+                    
+                </hyphenation>
+
+                <quotation marks="all">
+
+
+                </quotation>
                 
             </editorialDecl>
 
-             </encodingDesc>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+
+            </encodingDesc>
 
                 <langUsage>
                     <language ident="It">Italiano</language>
@@ -173,10 +223,14 @@
                     </constitution>
                     
                     
-                    <derivation type="original"></derivation>
+                    <derivation type="original"/>
 
+                    <domain type="education"/>
+
+
+                    
                     <factuality type="fact"/>
-
+                    
                     
                     <interaction />
 
@@ -194,11 +248,11 @@
                 <creation>
 
                     <listChange>
-                        <change when="1940-12-10" who="#AS">
+                        <change when="1940-12-10" who="#BT">
                             Le pagine<ref target="#p1">1</ref>,<ref target="#p2">2</ref>, <ref target="#p3">3</ref>e <ref target="#p4">4</ref> sono state scritte il <date when="1940-12-06">6 Dicembre 1940</date>
                         </change>
 
-                        <change when="1945-06-02" who="#AS">
+                        <change when="1945-06-02" who="#BS">
                             La pagina<ref target="#p5">5</ref>+ stat scritta il <date when="1945-06-02">2 Giugno 1945</date>
 
                         </change>
@@ -396,6 +450,20 @@
 
 
      </facsimile>
+
+     <!-- in text inizia la trascrizione vera e propria-->
+     
+     <text xml:id="testo" xml:lang="it">
+        <body>
+
+
+
+
+        </body>
+
+
+     </text>
+      
 
 
 </TEI>
