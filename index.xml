@@ -26,12 +26,15 @@
             <publicationStmt>
                 <publisher>
                     <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
-                    
-
                 </publisher>
-
+                <pubPlace ref="#PISA">Pisa</pubPlace>
+                <address>
+                    <street>Lungarno Pacinotti, 43</street>
+                    <postCode>56126</postCode>
+                    <settlement>Pisa</settlement>
+                    <country>Italy</country>
+                </address>
                 <availability status="free"><p>Opera ad accesso libero</p></availability>
-
             </publicationStmt>
 
 
