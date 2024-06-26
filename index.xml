@@ -27,7 +27,7 @@
                 <publisher>
                     <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
                 </publisher>
-                <pubPlace ref="#PISA">Pisa</pubPlace>
+                <pubPlace ref="#PI">Pisa</pubPlace>
                 <address>
                     <street>Lungarno Pacinotti, 43</street>
                     <postCode>56126</postCode>
