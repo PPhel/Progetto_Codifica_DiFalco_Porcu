@@ -27,25 +27,6 @@
                 </respStmt>
             </titleStmt>
 
-            <extent>
-                <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
-                <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
-            </extent>
-
-            <publicationStmt>
-                <publisher>
-                    <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
-                </publisher>
-                <pubPlace ref="#PI">Pisa</pubPlace>
-                <address>
-                    <street>Lungarno Pacinotti, 43</street>
-                    <postCode>56126</postCode>
-                    <settlement>Pisa</settlement>
-                    <country>Italy</country>
-                </address>
-                <availability status="free"><p>Opera ad accesso libero</p></availability>
-            </publicationStmt>
-
 
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
             <editionStmt> <!--Da rivedere-->
@@ -64,6 +45,25 @@
                     <name ref="#LP">Luca Porcu</name>
                 </respStmt>
             </editionStmt>
+
+            <extent>
+                <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
+                <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
+            </extent>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
+                </publisher>
+                <pubPlace ref="#PI">Pisa</pubPlace>
+                <address>
+                    <street>Lungarno Pacinotti, 43</street>
+                    <postCode>56126</postCode>
+                    <settlement>Pisa</settlement>
+                    <country>Italy</country>
+                </address>
+                <availability status="free"><p>Opera ad accesso libero</p></availability>
+            </publicationStmt>
 
             <!-- sourceDesc viene utilizzato per informazioni riguardante la fonte originale -->
             <sourceDesc>
