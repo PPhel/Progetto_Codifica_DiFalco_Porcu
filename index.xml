@@ -18,6 +18,23 @@
                 <author role="author" ref="#AS">Amalia Segre</author>
             </titleStmt>
 
+            <extent>
+
+
+            </extent>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
+                    
+
+                </publisher>
+
+                <availability status="free"><p>Opera ad accesso libero</p></availability>
+
+            </publicationStmt>
+
+
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
             <editionStmt>
                 <edition> Edizione digitale per l'esame di Codifica di Testi
@@ -146,7 +163,6 @@
 
              </encodingDesc>
 
-             <profileDesc>
                 <langUsage>
                     <language ident="It">Italiano</language>
                 </langUsage>
@@ -169,6 +185,11 @@
                     <purpose/>
 
                 </textDesc>
+                
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italiano</language>
+                </langUsage>
 
                 <creation>
 
@@ -185,13 +206,32 @@
                         
                     </listChange>
 
+                    
+
 
                 </creation>
 
+                <correspDesc>
+
+                    <correspAction type="sent">
+                        <persName>Benvenuto Terracini</persName>
+                        <settlement>Torino</settlement>
+                        <date when="1940-12-06">12 Dicembre 1940</date>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>Bruno Segre</persName>
+                        <settlement>Torino</settlement>
+                        <date when="1945-06-02">2 Giugno 1945</date>
+
+
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
 
 
 
-             </profileDesc>
+
+            
     </teiHeader>
     <!-- Facsimile serve per la rappresentazione grafica-->
      <facsimile>
