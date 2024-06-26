@@ -16,6 +16,7 @@
                 <title type="main">Lettere di Amalia Segre</title>
                 <title type="sub">Lettere scritte tra 1940 e 1945</title>
                 <author role="author" ref="#AS">Amalia Segre</author>
+                <!-- Le due lettere, inclusa la seconda codificata in parte, presentano la firma alla fine-->
                 <respStmt>
                     <resp>Lettera 1 scritta da </resp>
                     <persName ref="#BT">Benvenuto Terracini</persName>
