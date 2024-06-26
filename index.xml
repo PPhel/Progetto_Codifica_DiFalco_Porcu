@@ -19,8 +19,8 @@
             </titleStmt>
 
             <extent>
-
-
+                <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
+                <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
             </extent>
 
             <publicationStmt>
