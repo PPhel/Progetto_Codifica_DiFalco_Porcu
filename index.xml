@@ -7,7 +7,7 @@
     Date: 2024-07
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- teiHeader viene usato per indicare metadati descrittiv-->
+    <!-- teiHeader viene usato per indicare metadati descrittivi-->
     <teiHeader xml:lang="it">
         <!-- fileDesc contiene la descrizione accurata del file -->
         <fileDesc>
