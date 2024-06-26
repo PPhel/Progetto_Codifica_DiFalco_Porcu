@@ -39,7 +39,7 @@
 
 
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
-            <editionStmt>
+            <editionStmt> <!--Da rivedere-->
                 <edition> Edizione digitale per l'esame di Codifica di Testi
                     <date when="2024-07">Luglio 2024</date>
                 </edition>
