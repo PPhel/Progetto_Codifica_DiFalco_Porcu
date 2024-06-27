@@ -115,7 +115,14 @@
 
                     <msContents>
                         <msItem>
-                            <title type="main">Lettere</title>
+                            <title type="main">Lettere della raccolta di <persName ref="#ASA">Amalia Segre Artom</persName></title>
+                            
+                            <p> gli autori delle lettere sono:</p>
+
+                            <author><persName ref="#BT">Bruno Terracini</persName></author>
+                            <author><persName ref="#BS">Bruno Segre</persName></author>
+                            
+                            
                         </msItem>
                     </msContents>
 
