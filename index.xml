@@ -13,6 +13,7 @@
         <fileDesc>
             <!-- titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore -->
             <titleStmt>
+<<<<<<< HEAD
                 <title type="main">Lettere della raccolta di Amalia Segre Artom</title>
                 <title type="sub">Scritte tra 1940 e 1945</title>
                 <author role="author" ref="#BT">Benvenuto Terracini</author>
@@ -56,6 +57,22 @@
                 <availability status="free"><p>Opera ad accesso libero</p></availability>
             </publicationStmt>
 
+=======
+                <title type="main">Lettere di Amalia Segre</title>
+                <title type="sub">Lettere scritte tra 1940 e 1945</title>
+                <author role="author" ref="#AS">Amalia Segre</author>
+                <!-- Le due lettere, inclusa la seconda codificata in parte, presentano la firma alla fine-->
+                <respStmt>
+                    <resp>Lettera 1 scritta da </resp>
+                    <persName ref="#BT">Benvenuto Terracini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Lettera 2 scritta da </resp>
+                    <persName ref="#BS">Bruno Segre</persName>
+                </respStmt>
+            </titleStmt>
+
+>>>>>>> de23369aa0b6515bfd0f1b85ef8fce8e1a6a246e
 
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
             <editionStmt> <!--Da rivedere-->
@@ -75,6 +92,25 @@
                 </respStmt>
                 
             </editionStmt>
+
+            <extent>
+                <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
+                <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
+            </extent>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
+                </publisher>
+                <pubPlace ref="#PI">Pisa</pubPlace>
+                <address>
+                    <street>Lungarno Pacinotti, 43</street>
+                    <postCode>56126</postCode>
+                    <settlement>Pisa</settlement>
+                    <country>Italy</country>
+                </address>
+                <availability status="free"><p>Opera ad accesso libero</p></availability>
+            </publicationStmt>
 
             <!-- sourceDesc viene utilizzato per informazioni riguardante la fonte originale -->
             <sourceDesc>
