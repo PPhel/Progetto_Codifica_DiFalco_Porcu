@@ -13,51 +13,6 @@
         <fileDesc>
             <!-- titleStmt viene usato per l'insieme delle informazioni sull'opera e sull'autore -->
             <titleStmt>
-<<<<<<< HEAD
-                <title type="main">Lettere della raccolta di Amalia Segre Artom</title>
-                <title type="sub">Scritte tra 1940 e 1945</title>
-                <author role="author" ref="#BT">Benvenuto Terracini</author>
-                <author role="auhtor" ref="#BS">Bruno Segre</author>
-            </titleStmt>
-
-            <editionStmt>
-                <!-- Da rivedere!!-->
-
-                
-                
-                <edition n="1">Edizione Accademica</edition>
-
-                <respStmt>
-                    <resp> A cura di:</resp>
-                    <name>Filippo Di Falco</name>
-                     <name>Luca Porcu</name>
-
-
-
-                </respStmt>
-
-            </editionStmt>
-
-            <extent>
-                <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
-                <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
-            </extent>
-
-            <publicationStmt>
-                <publisher>
-                    <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
-                </publisher>
-                <pubPlace ref="#PI">Pisa</pubPlace>
-                <address>
-                    <street>Lungarno Pacinotti, 43</street>
-                    <postCode>56126</postCode>
-                    <settlement>Pisa</settlement>
-                    <country>Italy</country>
-                </address>
-                <availability status="free"><p>Opera ad accesso libero</p></availability>
-            </publicationStmt>
-
-=======
                 <title type="main">Lettere di Amalia Segre</title>
                 <title type="sub">Lettere scritte tra 1940 e 1945</title>
                 <author role="author" ref="#AS">Amalia Segre</author>
@@ -72,7 +27,6 @@
                 </respStmt>
             </titleStmt>
 
->>>>>>> de23369aa0b6515bfd0f1b85ef8fce8e1a6a246e
 
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
             <editionStmt> <!--Da rivedere-->
@@ -152,11 +106,13 @@
                     <msContents>
                         <msItem>
                             <title type="main">Lettere della raccolta di <persName ref="#ASA">Amalia Segre Artom</persName></title>
-                            
-                            <p> gli autori delle lettere sono:</p>
 
                             <author><persName ref="#BT">Bruno Terracini</persName></author>
                             <author><persName ref="#BS">Bruno Segre</persName></author>
+                            <docDate>
+                                <date from="1940-12-06" to="1945-06-02">6 Dicembre 1940-2 Giugno 1945</date>
+                            </docDate>
+                            <textLang mainLang="it">Italiano</textLang>
                             
                             
                         </msItem>
@@ -165,7 +121,7 @@
                     <physDesc>
                         <objectDesc form="manoscript">
                             <supportDesc material="paper" source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000081/corrispondenza-amalia-segre-artom.html">
-                                <support>fogli di <material>carta</material></support>
+                                <support>Fogli di <material>carta</material></support>
                                 <extent>
                                     <measure unit="pages" quantity="140">
                                         Il manoscritto è composto da<num>140 pagine</num>
@@ -259,38 +215,25 @@
             </refsDecl>
 
             </encodingDesc>
-
-                <langUsage>
-                    <language ident="It">Italiano</language>
-                </langUsage>
-                <textDesc>
-                    <channel mode="w"/>
-                    <constitution>
-
-                    </constitution>
-                    
-                    
-                    <derivation type="original"/>
-
-                    <domain type="education"/>
-
-
-                    
-                    <factuality type="fact"/>
-                    
-                    
-                    <interaction />
-
-                    <preparedness/>
-
-                    <purpose/>
-
-                </textDesc>
-                
             <profileDesc>
                 <langUsage>
                     <language ident="it">Italiano</language>
                 </langUsage>
+                <textDesc>
+                    <channel mode="w"/>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="education"/>
+                    <factuality type="fact"/>
+                    <!-- Interaction da rivedere-->
+                    <interaction></interaction>
+                    <preparedness type="none"/>
+                    <!-- Purpose da rivedere-->
+                    <purpose></purpose>
+                     
+
+
+                </textDesc>
 
                 <creation>
 
