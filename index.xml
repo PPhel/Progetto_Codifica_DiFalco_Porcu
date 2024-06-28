@@ -135,13 +135,14 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" ruledLines="5 30">
-                                    Generalmente le pagine presentano dalle 20 alle 30 righe ciascuna, ma alcune sono più corte, con minime di 5 righe nell'ultima pagina della prima lettera.
+                                    Generalmente le pagine presentano dalle 20 alle 30 righe ciascuna, ma alcune sono più corte, con minime di 5 righe presenti nell'ultima pagina della prima lettera.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote></handNote>
-                           
+                            <handNote scope="major" medium="black pen pencil" script="cursive">
+                           La seconda lettera, scritta da <persName ref="#BS">Bruno Segre</persName>, è interamente scritta a mano con penna nera in corsivo.
+                        </handNote>
                         </handDesc>
 
                         <typeDesc>
@@ -281,7 +282,7 @@
      <facsimile>
         <!-- Pagina 1-->
         <surface xml:id="s1" n="1">
-            <graphic url='1.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/1.jpg' width='806.4px' height='1024.4px' />
             <zone ulx="358" uly="134" lrx="585" lry="161" />
             <zone ulx="125" uly="171" lrx="709" lry="198" />
             <zone ulx="92" uly="209" lrx="721" lry="231" />
@@ -315,7 +316,7 @@
 
 
         <surface xml:id="s2" n="2">
-            <graphic url='2.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/2.jpg' width='806.4px' height='1024.4px' />
             <zone ulx="120" uly="112" lrx="743" lry="140" />
             <zone ulx="120" uly="144" lrx="717" lry="166" />
             <zone ulx="122" uly="169" lrx="762" lry="194" />
@@ -350,7 +351,7 @@
         <!-- Pagina 3-->
 
         <surface xml:id="s3" n="3">
-            <graphic url='3.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/3.jpg' width='806.4px' height='1024.4px' />
             <zone ulx="102" uly="112" lrx="733" lry="130" />
             <zone ulx="108" uly="146" lrx="731" lry="160" />
             <zone ulx="108" uly="172" lrx="729" lry="187" />
@@ -384,7 +385,7 @@
         <!-- Pagina 4-->
 
         <surface xml:id="s4" n="4">
-            <graphic url='4.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/4.jpg' width='806.4px' height='1024.4px' />
             <zone ulx="98" uly="112" lrx="728" lry="144" />
             <zone ulx="98" uly="153" lrx="729" lry="176" />
             <zone ulx="99" uly="181" lrx="358" lry="201" />
@@ -397,7 +398,7 @@
         <!-- Pagina 5-->
 
         <surface xml:id="s5" n="5">
-            <graphic url='5.jpg' width='746.4px' height='1024.4px' />
+            <graphic url='img/5.jpg' width='746.4px' height='1024.4px' />
             <zone ulx="56" uly="55" lrx="302" lry="80" />
             <zone ulx="447" uly="67" lrx="696" lry="143" />
             <zone ulx="154" uly="86" lrx="205" lry="97" />
@@ -434,7 +435,7 @@
 
      <!-- in text inizia la trascrizione vera e propria-->
      
-     <text xml:id="testo" xml:lang="it">
+     <text xml:id="testo" xml:lang="it" hand="#BT" type="" subtype=""> <!-- Lettera 1 di Benvenuto Terracini-->
         <body>
             
 
@@ -446,6 +447,64 @@
 
      </text>
       
+     <text xml:id="testo" xml:lang="it" hand="#BS" type="" subtype=""> <!-- Lettera 2 di Bruno Segre-->
+        <body>
 
+        </body>
 
+        <back> <!-- appendici -->
+            <listPerson>
+                <person xml:id="BT">
+                    <persName>
+                        <forename>Benvenuto</forename>
+                        <surname>Terracini</surname>
+                    </persName>
+                </person>
+                <person xml:id="BS">
+                    <persName>
+                        <forename>Bruno</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                </person>
+            
+                <person xml:id="LP">
+                    <persName role="studente">
+                        <forename>Luca</forename>
+                        <surname>Porcu</surname>
+                    </persName>
+                    <birth>
+                        <date when="2000-03-23">23/03/2000</date>
+                        <placeName ref="SS">
+                            <settlement type="municipality">Sassari</settlement>
+                            <settlement type="district" key="SS">Sassari</settlement>
+                            <country type="nation" key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                    <sex>M</sex>
+                    <note>Note varie etc</note>
+                </person>
+            </listPerson>
+
+            <listPlace>
+                <place xml:id="PED">
+                    <placeName type="region">Piemonte</placeName>
+                    <country type="nation" key="IT">Italia</country>
+                    <desc></desc>
+                </place>
+                <place xml:id="TO">
+                    <placeName>Torino</placeName>
+                    <country type="nation" key="IT">Italia</country>
+                    <desc></desc>
+                </place>
+            </listPlace>
+
+            <listOrg>
+
+            </listOrg>
+
+            <listBibl>
+
+            </listBibl>
+        </back>
+     </text>
 </TEI>
