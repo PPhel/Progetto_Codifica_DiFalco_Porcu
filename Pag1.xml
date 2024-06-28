@@ -5,10 +5,10 @@
      <pb xml:id="p1" facs="#s1"/>
      <!--Riga 1. Iniziamo con la data della lettera-->
      <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
-     <placeName ref="#TO">Torino<settlement></settlement></placeName>,<date when="1940-12-8">8 dicembre 1940.</date>
+     <placeName ref="#TO">Torino<settlement></settlement></placeName><pc type="comma">,</pc><date when="1940-12-8">8 dicembre 1940<pc type="period">.</pc></date>
      <!-- Riga 2-->
      <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
-     L'onda dei ricordi si acqueta nei nostri cuori, si addolcisce il
+     L'onda dei ricordi si acqueta nei nostri cuori<pc type="comma">,</pc> si addolcisce il
      <!-- Riga 3-->
      <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
      pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
@@ -20,46 +20,46 @@
      penetrare per un momento nel segreto del loro dolore -rimane negli a=
      <!-- Riga 6-->
      <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
-     nimi una pacata serenità.
+     nimi una pacata serenità<pc type="period">.</pc>
      <!-- Riga 7-->
      <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/>
-     <corr>Perch+</corr><!--  Parola corretta a penna-->, di improvviso, io non posso pensare al povero Ennio, senza
+     <corr>Perchè</corr><!--  Parola corretta a penna--><pc type="comma">,</pc> di improvviso<pc type="comma">,</pc> io non posso pensare al povero Ennio<pc type="comma">,</pc> senza
      <!-- Riga 8-->
      <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
      che mi venga incontro la Sua figura come è nel ricordo più antico che
      <!-- Riga 9 -->
      <lb xml:id="r9p1" facs="#p1r9" n="9" break="no"/>
-     serbo di Lui, quando a me si accompagnava lungo i preti
+     serbo di Lui<pc type="comma">,</pc> quando a me si accompagnava lungo i preti
      <!-- Riga 10 -->
      <lb xml:id="r10p1" facs="#p1r10" n="10" break="no"/>
-     del Villair: viva era la parola, arguta, pronta la risposta, ma in
+     del Villair: viva era la parola<pc type="comma">,</pc> arguta<pc type="comma">,</pc>pronta la risposta<pc type="comma">,</pc> ma in
      <!-- Riga 11 -->
      <lb xml:id="r11p1" facs="#p1r11" n="11" break="no"/>
-     quei suoi occhi sereni si rifletteva come una grande calma; l'azzurra
+     quei suoi occhi sereni si rifletteva come una grande calma<pc type="semicolon">;</pc> l'azzurra
      <!-- Riga 12 -->
      <lb xml:id="r10p1" facs="#p1r10" n="12" break="no"/>
-     pace dell'alpe , quella pace che, assieme al volto paterno ,cullò il
+     pace dell'alpe <pc type="comma">,</pc> quella pace che<pc type="comma">,</pc> assieme al volto paterno <pc type="comma">,</pc>cullò il
      <!-- Riga 13 -->
      <lb xml:id="r10p1" facs="#p1r10" n="13" break="yes"/>
-     Suo sguardo si chiuse alla grande ombra.
+     Suo sguardo si chiuse alla grande ombra<pc type="period">.</pc>
      <!-- Riga 14 -->
      <lb xml:id="r10p1" facs="#p1r10" n="14" break="no"/>
-     Eppure è necessario che Lo ricordiamo qui, nel chiuso di queste pic=
+     Eppure è necessario che Lo ricordiamo qui<pc type="comma">,</pc> nel chiuso di queste pic=
      <!-- Riga 15 -->
      <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
-     cola biblioteca, perchè il destino ha consentito a questo fanciullo di
+     cola biblioteca<pc type="comma">,</pc> perchè il destino ha consentito a questo fanciullo di
      <!-- Riga 16 -->
      <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
-     dere qui la prova più complessa ,più ardua della Sua maturità precoce.
+     dere qui la prova più complessa ,più ardua della Sua maturità precoce<pc type="period">.</pc>
      <!-- Riga 17 -->
      <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
      Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
      <!-- Riga 18 -->
      <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
-     anni or sono, quando il piccolo Ennio -come ci disse la Signorina Treves-
+     anni or sono<pc type="comma">,</pc> quando il piccolo Ennio -come ci disse la Signorina Treves-
      <!-- Riga 19 -->
      <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
-     era un batuffolo rosa trotterellante per le vie di Morgex. Fondata da
+     era un batuffolo rosa trotterellante per le vie di Morgex<pc type="period">.</pc> Fondata da
      <!-- Riga 20 -->
      <lb xml:id="r20p1" facs="#p1r20" n="20" break="no"/>
      alcuni volenterosi perchè diventasse un modesto centro di studi dove i
@@ -68,16 +68,16 @@
      giovani ritrovassero nella storia dei nostri padri la ragione del loro
      <!-- Riga 22 -->
      <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
-     essere di Ebrei, della Università popolare ebraica, passò alla Associa=
+     essere di Ebrei<pc type="comma">,</pc> della Università popolare ebraica<pc type="comma">,</pc> passò alla Associa=
      <!-- Riga 23 -->
      <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
-     zione giovanile, da questa passò poi ai giovani dell'Honeg Shebbth, e
+     zione giovanile<pc type="comma">,</pc> da questa passò poi ai giovani dell'Honeg Shebbth<pc type="comma">,</pc> e
      <!-- Riga 24 -->
      <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
-     da essi passò finalmente ai giovanissimi.
+     da essi passò finalmente ai giovanissimi<pc type="period">.</pc>
      <!-- Riga 25 -->
      <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
-     Giovanissimi? ecco: diceva Ennio in quest'aula, commemorando il Purim
+     Giovanissimi<pc type="interrogative">?</pc> ecco<pc type="colons">:</pc> diceva Ennio in quest'aula<pc type="comma">,</pc> commemorando il Purim
      <!-- Riga 26 -->
      <lb xml:id="r26p1" facs="#p1r26" n="26" break="no"/>
      quasi a scagionare sé e gli amici della felice accusa di
