@@ -380,7 +380,6 @@
         </surface>
 
         <!-- Pagina 4-->
-
         <surface xml:id="s4" n="4">
             <graphic url='img/4.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p4r1" ulx="98" uly="112" lrx="728" lry="144" />
@@ -393,7 +392,6 @@
         </surface>
 
         <!-- Pagina 5-->
-
         <surface xml:id="s5" n="5">
             <graphic url='img/5.jpg' width='746.4px' height='1024.4px' />
             <zone xml:id="p5r1" ulx="56" uly="55" lrx="302" lry="80" />
