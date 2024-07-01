@@ -40,7 +40,7 @@
                 </respStmt>
 
                 <respStmt>
-                    <resp>Codifica e trascrizione a cura di:</resp>
+                    <resp>Codifica e trascrizione <orgName type="acronym">TEI </orgName> P5 a cura di:</resp>
                     <name ref="#FD">Filippo Di Falco</name>
                     <name ref="#LP">Luca Porcu</name>
                 </respStmt>
@@ -447,6 +447,7 @@
 
         </body>
 
+
         <back> <!-- appendici -->
             <listPerson>
                 <person xml:id="BT">
@@ -479,7 +480,7 @@
                     <note>Note varie etc</note>
                 </person>
                 <person xml:id="FD">
-                    <persName>
+                    <persName role="studente">
                         <forename>Filippo</forename>
                         <surname>Di Falco</surname>
                     </persName>
