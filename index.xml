@@ -468,7 +468,7 @@
                         <surname>Porcu</surname>
                     </persName>
                     <birth>
-                        <date when="2000-03-23">23/03/2000</date>
+                        <date when="2000-03-23">23 Marzo 2000</date>
                         <placeName ref="SS">
                             <settlement type="municipality">Sassari</settlement>
                             <settlement type="district" key="SS">Sassari</settlement>
@@ -477,6 +477,22 @@
                     </birth>
                     <sex>M</sex>
                     <note>Note varie etc</note>
+                </person>
+                <person xml:id="FD">
+                    <persName>
+                        <forename>Filippo</forename>
+                        <surname>Di Falco</surname>
+                    </persName>
+                    <birth>
+                        <date when="1998-01-15">15 Gennaio 1998</date>
+                        <placeName ref="GA">
+                            <settlement type="municipality">Gallarate</settlement>
+                            <settlement type="district" key="VA">Varese</settlement>
+                            <country type="nation" key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                    <sex>M</sex>
+                    <note></note>
                 </person>
             </listPerson>
 
