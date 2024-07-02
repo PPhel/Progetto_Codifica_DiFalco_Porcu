@@ -1022,18 +1022,51 @@
                         <forename>Benvenuto</forename>
                         <surname>Terracini</surname>
                     </persName>
+                    <birth>
+
+                    </birth>
+                    <death>
+
+                    </death>
                 </person>
                 <person xml:id="BS" role="lawyer"><!-- avvocato di professione, ma si può cambiare-->
                     <persName>
                         <forename>Bruno</forename>
                         <surname>Segre</surname>
                     </persName>
+                    <birth>
+
+                    </birth>
+                    <death>
+
+                    </death>
+                </person>
+                <person xml:id="ES" role="brother">
+                    <persName>
+                        <forename>Ennio</forename>
+                        <surname>Artom</surname>
+                    </persName>
+                    <birth>
+
+                    </birth>
+                    <death>
+
+                    </death>
+                    <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente il 29 Giugno 1940. Di lui ci sono poche informazioni online.</note>
+
                 </person>
                 <person xml:id="ASA" role="teacher">
                     <persName>
                         <forename>Amalia</forename>
                         <surname>Segre Artom</surname>
                     </persName>
+                    <birth>
+
+                    </birth>
+                    <death>
+
+                    </death>
+                    <note>Madre di Emanuele Artom e insegnante di matematica, divenne preside della Scuola Media intitolata al figlio.</note><!--Da completare-->
                 </person>
             
                 <person xml:id="LP">
@@ -1050,7 +1083,7 @@
                         </placeName>
                     </birth>
                     <sex>M</sex>
-                    <note>Note varie etc</note>
+                   <!-- Note omesse in quanto "inutili" per noi due-->
                 </person>
                 <person xml:id="FD">
                     <persName role="studente">
@@ -1066,7 +1099,7 @@
                         </placeName>
                     </birth>
                     <sex>M</sex>
-                    <note></note>
+                    <!-- Note omesse in quanto inutili per noi due-->
                 </person>
             </listPerson>
 
