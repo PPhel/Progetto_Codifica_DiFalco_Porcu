@@ -430,7 +430,7 @@
 
      <!-- in text inizia la trascrizione vera e propria-->
      
-     <text xml:id="testo" xml:lang="it" hand="#BT" type="" subtype=""> <!-- Lettera 1 di Benvenuto Terracini-->
+     <text xml:id="testo" xml:lang="it" hand="#BT" type="" subtype=""> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
         <body>
             <!--  Pagina 1 -->
 <ab type="page" xml:lang="it" n="1">
@@ -449,7 +449,7 @@
     </date>
     <!--  Riga 2 -->
     <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
-    L'onda dei ricordi si acqueta nei nostri cuori
+    L'onda dei ricordi si acqueta nei nostri cuori<!-- Acqueta termine letterario-->
     <pc type="comma">,</pc>
     si addolcisce il
     <!--  Riga 3 -->
@@ -950,7 +950,7 @@
     <pc type="comma">,</pc>
     <!--  Riga 17 -->
     <lb xml:id="r17p5" facs="#p5r17" n="17" break="no"/>
-    tra i partigiani conobbi per sommi capi la storia di Lele
+    tra i partigiani conobbi per sommi capi la storia di Lele<!-- Storia è un po' rimarcato, Dobbiamo capire chi sia Lele-->
     <pc type="comma">,</pc>
     che vorrei
     <!--  Riga 18 -->
