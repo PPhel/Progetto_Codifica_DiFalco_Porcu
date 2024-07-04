@@ -377,368 +377,335 @@
      </facsimile>
      <!-- in text inizia la trascrizione vera e propria-->
      
-<text xml:id="testo" xml:lang="it" hand="#BT" type="lettera"> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
-        <body>
-            <!--  Pagina 1 -->
-            <ab type="page" xml:lang="it" n="1">
-                <!--  Inizio della pagina -->
-                <pb xml:id="p1" facs="#s1"/>
-                <!-- Riga 1. Iniziamo con la data della lettera -->
-                <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
-                <placeName ref="#TO">Torino<settlement/></placeName><pc type="comma">,</pc><date when="1940-12-8">8 dicembre 1940<pc type="period">.</pc></date>
-                <!--  Riga 2 -->
-                <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
-                L'onda dei ricordi si <orig>acqueta</orig> nei nostri cuori<!-- Acqueta termine letterario--><pc type="comma">,</pc>si addolcisce il
-                <!--  Riga 3 -->
-                <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
-                pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
-                <!--  Riga 4 -->
-                <lb xml:id="r4p1" facs="#p1r4" n="4" break="no"/>
-                fetto che portavo a quel loro figliolo mi fa tanto ardito da
-                <!--  Riga 5 -->
-                <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
-                penetrare per un momento nel segreto del loro dolore -rimane negli a=
-                <!--  Riga 6 -->
-                <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
-                nimi una pacata serenità<pc type="period">.</pc>
-                <!--  Riga 7 -->
-                <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/><corr>Perchè</corr><!--   Parola corretta a penna --><pc type="comma">,</pc>di improvviso<pc type="comma">,</pc>io non posso pensare al povero Ennio<pc type="comma">,</pc>senza
-                <!--  Riga 8 -->
-                <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
-                che mi venga incontro la Sua figura come è nel ricordo più antico che
-                <!--  Riga 9  -->
-                <lb xml:id="r9p1" facs="#p1r9" n="9" break="no"/>
-                serbo di Lui<pc type="comma">,</pc>quando a me si accompagnava lungo i preti
-                <!--  Riga 10  -->
-                <lb xml:id="r10p1" facs="#p1r10" n="10" break="no"/>
-                del Villair: viva era la parola <pc type="comma">,</pc> arguta <pc type="comma">,</pc> pronta la risposta <pc type="comma">,</pc> ma in
-                <!--  Riga 11  -->
-                <lb xml:id="r11p1" facs="#p1r11" n="11" break="no"/>
-                quei suoi occhi sereni si rifletteva come una grande calma <pc type="semicolon">;</pc> l'azzurra
-                <!--  Riga 12  -->
-                <lb xml:id="r12p1" facs="#p1r12" n="12" break="no"/>
-                pace dell'alpe <pc type="comma">,</pc> quella pace che <pc type="comma">,</pc> assieme al volto paterno <pc type="comma">,</pc> cullò il
-                <!--  Riga 13  -->
-                <lb xml:id="r13p1" facs="#p1r13" n="13" break="yes"/>
-                Suo sguardo si chiuse alla grande ombra <pc type="period">.</pc>
-                <!--  Riga 14  -->
-                <lb xml:id="r14p1" facs="#p1r14" n="14" break="no"/>
-                Eppure è necessario che Lo ricordiamo qui <pc type="comma">,</pc> nel chiuso di queste pic=
-                <!--  Riga 15  -->
-                <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
-                cola biblioteca <pc type="comma">,</pc> perchè il destino ha consentito a questo fanciullo di
-                <!--  Riga 16  -->
-                <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
-                dere qui la prova più complessa ,più ardua della Sua maturità precoce <pc type="period">.</pc>
-                <!--  Riga 17  -->
-                <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
-                Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
-                <!--  Riga 18  -->
-                <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
-                anni or sono <pc type="comma">,</pc> quando il piccolo Ennio -come ci disse la Signorina Treves-
-                <!--  Riga 19  -->
-                <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
-                era un batuffolo rosa trotterellante per le vie di Morgex <pc type="period">.</pc> Fondata da
-                <!--  Riga 20  -->
-                <lb xml:id="r20p1" facs="#p1r20" n="20" break="no"/>
-                alcuni volenterosi perchè diventasse un modesto centro di studi dove i
-                <!--  Riga 21  -->
-                <lb xml:id="r21p1" facs="#p1r21" n="21" break="no"/>
-                giovani ritrovassero nella storia dei nostri padri la ragione del loro
-                <!--  Riga 22  -->
-                <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
-                essere di Ebrei <pc type="comma">,</pc> della Università popolare ebraica <pc type="comma">,</pc> passò alla Associa=
-                <!--  Riga 23  -->
-                <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
-                zione giovanile <pc type="comma">,</pc>da questa passò poi ai giovani dell'Honeg Shebbth<pc type="comma">,</pc> e
-                <!--  Riga 24  -->
-                <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
-                da essi passò finalmente ai giovanissimi<pc type="period">.</pc>
-                <!--  Riga 25  -->
-                <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
-                Giovanissimi<pc type="interrogative">?</pc> ecco <pc type="colons">:</pc> diceva Ennio in quest'aula<pc type="comma">,</pc>commemorando il Purim
-                <!--  Riga 26  -->
-                <lb xml:id="r26p1" facs="#p1r26" n="26" break="no"/>
-                quasi a scagionare sé e gli amici della felice accusa di
-            </ab>
+    <text xml:id="testo" xml:lang="it" hand="#BT" type="lettera"> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
+            <body>
+                <!--  Pagina 1 -->
+                <ab type="page" xml:lang="it" n="1">
+                    <!--  Inizio della pagina -->
+                    <pb xml:id="p1" facs="#s1"/>
+                    <!-- Riga 1. Iniziamo con la data della lettera -->
+                    <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
+                    <placeName ref="#TO">Torino<settlement/></placeName><pc type="comma">,</pc><date when="1940-12-8">8 dicembre 1940<pc type="period">.</pc></date>
+                    <!--  Riga 2 -->
+                    <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
+                    L'onda dei ricordi si <orig>acqueta</orig> nei nostri cuori<!-- Acqueta termine letterario--><pc type="comma">,</pc>si addolcisce il
+                    <!--  Riga 3 -->
+                    <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
+                    pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
+                    <!--  Riga 4 -->
+                    <lb xml:id="r4p1" facs="#p1r4" n="4" break="no"/>
+                    fetto che portavo a quel loro figliolo mi fa tanto ardito da
+                    <!--  Riga 5 -->
+                    <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
+                    penetrare per un momento nel segreto del loro dolore -rimane negli a=
+                    <!--  Riga 6 -->
+                    <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
+                    nimi una pacata serenità<pc type="period">.</pc>
+                    <!--  Riga 7 -->
+                    <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/><corr>Perchè</corr><!--   Parola corretta a penna --><pc type="comma">,</pc>di improvviso<pc type="comma">,</pc>io non posso pensare al povero Ennio<pc type="comma">,</pc>senza
+                    <!--  Riga 8 -->
+                    <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
+                    che mi venga incontro la Sua figura come è nel ricordo più antico che
+                    <!--  Riga 9  -->
+                    <lb xml:id="r9p1" facs="#p1r9" n="9" break="no"/>
+                    serbo di Lui<pc type="comma">,</pc>quando a me si accompagnava lungo i preti
+                    <!--  Riga 10  -->
+                    <lb xml:id="r10p1" facs="#p1r10" n="10" break="no"/>
+                    del Villair: viva era la parola <pc type="comma">,</pc> arguta <pc type="comma">,</pc> pronta la risposta <pc type="comma">,</pc> ma in
+                    <!--  Riga 11  -->
+                    <lb xml:id="r11p1" facs="#p1r11" n="11" break="no"/>
+                    quei suoi occhi sereni si rifletteva come una grande calma <pc type="semicolon">;</pc> l'azzurra
+                    <!--  Riga 12  -->
+                    <lb xml:id="r12p1" facs="#p1r12" n="12" break="no"/>
+                    pace dell'alpe <pc type="comma">,</pc> quella pace che <pc type="comma">,</pc> assieme al volto paterno <pc type="comma">,</pc> cullò il
+                    <!--  Riga 13  -->
+                    <lb xml:id="r13p1" facs="#p1r13" n="13" break="yes"/>
+                    Suo sguardo si chiuse alla grande ombra <pc type="period">.</pc>
+                    <!--  Riga 14  -->
+                    <lb xml:id="r14p1" facs="#p1r14" n="14" break="no"/>
+                    Eppure è necessario che Lo ricordiamo qui <pc type="comma">,</pc> nel chiuso di queste pic=
+                    <!--  Riga 15  -->
+                    <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
+                    cola biblioteca <pc type="comma">,</pc> perchè il destino ha consentito a questo fanciullo di
+                    <!--  Riga 16  -->
+                    <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
+                    dere qui la prova più complessa ,più ardua della Sua maturità precoce <pc type="period">.</pc>
+                    <!--  Riga 17  -->
+                    <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
+                    Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
+                    <!--  Riga 18  -->
+                    <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
+                    anni or sono <pc type="comma">,</pc> quando il piccolo Ennio -come ci disse la Signorina Treves-
+                    <!--  Riga 19  -->
+                    <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
+                    era un batuffolo rosa trotterellante per le vie di Morgex <pc type="period">.</pc> Fondata da
+                    <!--  Riga 20  -->
+                    <lb xml:id="r20p1" facs="#p1r20" n="20" break="no"/>
+                    alcuni volenterosi perchè diventasse un modesto centro di studi dove i
+                    <!--  Riga 21  -->
+                    <lb xml:id="r21p1" facs="#p1r21" n="21" break="no"/>
+                    giovani ritrovassero nella storia dei nostri padri la ragione del loro
+                    <!--  Riga 22  -->
+                    <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
+                    essere di Ebrei <pc type="comma">,</pc> della Università popolare ebraica <pc type="comma">,</pc> passò alla Associa=
+                    <!--  Riga 23  -->
+                    <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
+                    zione giovanile <pc type="comma">,</pc>da questa passò poi ai giovani dell'Honeg Shebbth<pc type="comma">,</pc> e
+                    <!--  Riga 24  -->
+                    <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
+                    da essi passò finalmente ai giovanissimi<pc type="period">.</pc>
+                    <!--  Riga 25  -->
+                    <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
+                    Giovanissimi<pc type="interrogative">?</pc> ecco <pc type="colons">:</pc> diceva Ennio in quest'aula<pc type="comma">,</pc>commemorando il Purim
+                    <!--  Riga 26  -->
+                    <lb xml:id="r26p1" facs="#p1r26" n="26" break="no"/>
+                    quasi a scagionare sé e gli amici della felice accusa di
+                </ab>
 
-    <!-- Pagina 2-->
-<ab type="page" xml:lang="it" n="2">
-    <!-- Inizio della pagina-->
-     <pb xml:id="p2" facs="#s2"/>
-     <!-- Riga 1-->
-     <lb xml:id="r1p2" facs="#p2r1" n="1" break="no"/>
-     gioventù<pc type="comma">,</pc> diceva Ennio"<pc type="colons">:</pc>noi<pc type="comma">,</pc> sebbene più giovani <pc type="comma">,</pc> siamo molto più
-     <!-- Riga 2-->
-     <lb xml:id="r2p2" facs="#p2r2" n="2" break="yes"/>
-     vecchi di quelli che commemoravano Purim due o tre anni or sono"<pc type="period">.</pc>
-     <!--  Riga 3-->
-     <lb xml:id="r3p2" facs="#p2r3" n="3" break="no"/>
-     Poveri ragazzi! quando ripensiamo alla nostra gioventù serena<pc type="comma">,</pc> come fie=
-     <!-- Riga 4-->
-     <lb xml:id="r4p2" facs="#p2r4" n="4" break="no"/>
-     ramente si duole che il destino abbia loro riserbato tanta inquieta 
-     <!-- Riga 5-->
-     <lb xml:id="r5p2" facs="#p2r5" n="5" break="no"/>
-     esperienza! Ma se rileggiamo le poche allocuzioni occasionali di cui
-     <!-- Riga 6-->
-     <lb xml:id="r6p2" facs="#p2r6" n="6" break="no"/>
-     Ennio lasciò nota scritta<pc type="comma">,</pc> se ricordiamo le Sue lezioni<pc type="comma">,</pc> i temi da
-     <!-- Riga 7-->
-     <lb xml:id="r7p2" facs="#p2r7" n="7" break="no"/>
-     svolgere che consigliò ai compagni<pc type="comma">,</pc> se ricordiamo tutto quanto Egli
-     <!-- Riga 8-->
-     <lb xml:id="r8p2" facs="#p2r8" n="8" break="no"/>
-     fece perchè ciascuno di questi libri desse al lettore tutto il suo
-     <!-- Riga 9-->
-     <lb xml:id="r9p2" facs="#p2r9" n="9" break="no"/>
-     contenuto<pc type="comma">,</pc> ci accorgiamo tosto che Ennio non alludeva alla vecchiezza
-     <!-- Riga 10-->
-     <lb xml:id="r10p2" facs="#p2r10" n="10" break="no"/>
-     che piega sotto il peso degli eventi<pc type="comma">,</pc> ma ad una maturità consapevole<pc type="comma">,</pc>
-     <!-- Riga 11-->
-     <lb xml:id="r11p2" facs="#p2r11" n="11" break="yes"/>
-     quella maturità che Egli mostrava di possedere p<corr>ie</corr><!-- Due lettere corrette a mano-->namente<pc type="period">.</pc>
-     <!-- Riga 12-->
-     <lb xml:id="r12p2" facs="#p2r12" n="12" break="no"/>
-     Fra i molti problemi che l'ora presente ci impone <pc type="comma">,</pc> sono fermamente 
-     <!-- Riga 13-->
-     <lb xml:id="r13p2" facs="#p2r13" n="13" break="no"/>
-     convinto che il più delicato <pc type="comma">,</pc> il più difficile<pc type="comma">,</pc> il più urgente sia
-     <!--  Riga 14-->
-     <lb xml:id="r14p2" facs="#p2r14" n="14" break="no"/>
-     quello di alimentare fra i nostri giovani quella fiamma del conoscere
-     <!-- Riga 15-->
-     <lb xml:id="r15p2" facs="#p2r15" n="15" break="no"/>
-     e del sapere che va ben oltre i bisogni della vita<pc type="comma">,</pc> oltre le ambizioni
-     <!-- Riga 16-->
-     <lb xml:id="r16p2" facs="#p2r16" n="16" break="no"/>
-     della carriera<pc type="comma">,</pc> quella fiamma dell'ideale che è stata la forza
-     <!-- Riga 17-->
-     <lb xml:id="r17p2" facs="#p2r17" n="17" break="no"/>
-     dei nostri padri<pc type="comma">,</pc> che deve essere pure la nostra forza<pc type="comma">,</pc> se vogliamo tenere
-     <!-- Riga 18-->
-     <lb xml:id="r18p2" facs="#p2r18" n="18" break="no"/>
-     degnamente il posto<pc type="comma">,</pc> difficilissimo posto<pc type="comma">,</pc> che ci compete nella storia
-     <!-- Riga 19-->
-     <lb xml:id="r19p2" facs="#p2r19" n="19" break="yes"/>
-     di questa tormentata umanità<pc type="period">.</pc>
-     <!-- Riga 20-->
-     <lb xml:id="r20p2" facs="#p2r20" n="20" break="no"/>
-     Ora<pc type="comma">,</pc> in un primo tempo<pc type="comma">,</pc> chi di èiù adatto ad iniziare questo compito
-     <!-- Riga 21-->
-     <lb xml:id="r21p2" facs="#p2r21" n="21" break="no"/>
-     che un giovane il quale aveva ancora potuto formarsi alle scuole pub=
-     <!-- Riga 22-->
-     <lb xml:id="r22p2" facs="#p2r22" n="22" break="no"/>
-     bliche la cultura superiore indispensabile<pc type="comma">,</pc> e nel tempo stesso divi=
-     <!-- Riga 23-->
-     <lb xml:id="r23p2" facs="#p2r23" n="23" break="yes"/>
-     deva con i compagni l'angoscia delle speranze troppo presto troncate?
-     <!-- Riga 24-->
-     <lb xml:id="r24p2" facs="#p2r24" n="24" break="no"/>
-     Questo giovane fu<pc type="comma">,</pc> se non unicamente<pc type="comma">,</pc> perché gli erano accanto amici
-     <!-- Riga 25-->
-     <lb xml:id="r25p2" facs="#p2r25" n="25" break="yes"/>
-     egregi e tra i primi il suo fratello<pc type="comma">,</pc> fu principalmente Ennio Artom<pc type="period">.</pc>
-     <!-- Riga 26-->
-     <lb xml:id="r26p2" facs="#p2r26" n="26" break="no"/>
-     Il quale tuttavia assolse il Suo compito portandovi qualche cosa<corr>a</corr><!-- Errore di battitura corretto a mano-->di
-     <!-- Riga 27-->
-     <lb xml:id="r27p2" facs="#p2r27" n="27" break="no"/>
-     veramente<pc type="comma">,</pc> di unicamente Suo<pc type="semicolon">;</pc> non alludo io qua alla vestità delle Sue
-     <!-- Riga 28-->
-     <lb xml:id="r28p2" facs="#p2r28" n="28" break="no"/>
-     conoscenze<pc type="comma">,</pc> alla Sua padronanza della storia e delle lingue di Israele<pc type="semicolon">;</pc>
-     <!-- Riga 29-->
-     <lb xml:id="r29p2" facs="#p2r29" n="29" break="no"/>
-     penso piuttosto a quella Sua-direi-coscienza storica che gli permetteva
-    </ab>
-    <!--  Pagina 3 -->
-<ab type="page" xml:lang="it" n="3">
-    <!--  Inizio della pagina -->
-    <pb xml:id="p3" facs="#s3"/>
-    <!--  Riga 1 -->
-    <lb xml:id="r1p3" facs="#p3r1" n="1" break="no"/>
-    una pacatezza di giudizio che tanto più profondamente incideva negli
-    <!--  Riga 2 -->
-    <lb xml:id="r2p3" facs="#p3r2" n="2" break="no"/>
-    animi
-    <pc type="comma">,</pc>
-    quanto più appariva staccata da ogni rancore, da ogni passione
-    <!--  Riga 3 -->
-    <lb xml:id="r3p3" facs="#p3r3" n="3" break="no"/>
-    intransigente
-    <pc type="period">.</pc>
-    Era un ragionare acuto il Suo
-    <pc type="colons">:</pc>
-    sottile talvolta di un
-    <!--  Riga 4  -->
-    <lb xml:id="r4p3" facs="#p3r4" n="4" break="no"/>
-    formalismo quaso talmudico
-    <pc type="comma">,</pc>
-    talvolta pieno di un umorismo altrettanto
-    <!--  Riga 5  -->
-    <lb xml:id="r5p3" facs="#p3r5" n="5" break="no"/>
-    ebraico, sempre diritto al suo fine
-    <pc type="comma">,</pc>
-    sempre caldo di un sentimento in=
-    <!--  Riga 6  -->
-    <lb xml:id="r6p3" facs="#p3r6" n="6" break="no"/>
-    nato del giusto e del vero
-    <pc type="period">.</pc>
-    Virtù avite e -mi è caro di dirtelo/dartelo in que=
-    <!--  Riga 7  -->
-    <lb xml:id="r7p3" facs="#p3r7" n="7" break="no"/>
-    sto momento
-    <pc type="comma">,</pc>
-    amico Emilio - virtù dell'ingegno paterno che rifiorivano
-    <!--  Riga 8  -->
-    <lb xml:id="r8p3" facs="#p3r8" n="8" break="no"/>
-    in questo giovane
-    <pc type="comma">,</pc>
-    mentre donava ai compagni una parola di operante
-    <!--  Riga 9  -->
-    <lb xml:id="r9p3" facs="#p3r9" n="9" break="yes"/>
-    coraggio
-    <pc type="period">.</pc>
-    <!--  Riga 10  -->
-    <lb xml:id="r10p3" facs="#p3r10" n="10" break="no"/>
-    Sono le stesse virtù che informarono gli studi linguistici ai quali
-    <!--  Riga 11  -->
-    <lb xml:id="r11p3" facs="#p3r11" n="11" break="no"/>
-    si era volto per una vocazione connaturata addiritura allo spirito Suo
-    <pc type="period">.</pc>
-    <!--  Riga 12  -->
-    <lb xml:id="r12p3" facs="#p3r12" n="12" break="no"/>
-    Da ricerche che sono qualche cosa di più di semplici esercitazioni sco=
-    <!--  Riga 13  -->
-    <lb xml:id="r13p3" facs="#p3r13" n="13" break="no"/>
-    lastiche alla recentissima tesi di laurea
-    <pc type="comma">,</pc>
-    chi rilegge quelle pagine
-    <!--  Riga 14  -->
-    <lb xml:id="r14p3" facs="#p3r14" n="14" break="no"/>
-    e vi ritrova quella sensibilità al dato filologico e al valore storico
-    <!--  Riga 15  -->
-    <lb xml:id="r15p3" facs="#p3r15" n="15" break="no"/>
-    del linguaggio umano che è difficilissima da acquisire anche ai più
-    <!--  Riga 16  -->
-    <lb xml:id="r16p3" facs="#p3r16" n="16" break="no"/>
-    esperti
-    <pc type="comma">,</pc>
-    e si compiace dei problemi nitidamente delimitati e dominati
-    <!--  Riga 17  -->
-    <lb xml:id="r17p3" facs="#p3r17" n="17" break="no"/>
-    con signorile coltura
-    <pc type="comma">,</pc>
-    intuisce questa vita celino queste povere reli=
-    <!--  Riga 18  -->
-    <lb xml:id="r18p3" facs="#p3r18" n="18" break="no"/>
-    e quante promesse
-    <pc type="comma">,</pc>
-    e si augura che esse possano venire raccolte
-    <!--  Riga 19  -->
-    <lb xml:id="r19p3" facs="#p3r19" n="19" break="no"/>
-    e serbate non solo alla pietà dei congiunti
-    <pc type="comma">,</pc>
-    ma alla scienza glottolo=
-    <!--  Riga 20  -->
-    <lb xml:id="r20p3" facs="#p3r20" n="20" break="no"/>
-    gica
-    <pc type="period">.</pc>
-    Sulla facoltà costruttiva prevale ancora in esse l'acume critico
-    <pc type="comma">,</pc>
-    <!--  Riga 21  -->
-    <lb xml:id="r21p3" facs="#p3r21" n="21" break="no"/>
-    come è naturale nei giovani che si affacciano baldi al mondo del sapere
-    <!--  Riga 22  -->
-    <lb xml:id="r22p3" facs="#p3r22" n="22" break="no"/>
-    e nell'abito critico temprano la disciplina del loro pensiero
-    <pc type="period">.</pc>
-    <!--  Riga 23  -->
-    <lb xml:id="r23p3" facs="#p3r23" n="23" break="no"/>
-    Già Ennio disegnava nuovi studi e nuove indagini
-    <pc type="colons">:</pc>
-    ne discorrevamo
-    <!--  Riga 24  -->
-    <lb xml:id="r24p3" facs="#p3r24" n="24" break="no"/>
-    un giorno nel mio studio
-    <pc type="comma">,</pc>
-    da buoni compagni: mi parlava con abbandono
-    <!--  Riga 25  -->
-    <lb xml:id="r25p3" facs="#p3r25" n="25" break="no"/>
-    confidente, ritto in piedi
-    <pc type="comma">,</pc>
-    accarezzando con mano distratta uno dei
-    <!--  Riga 26  -->
-    <lb xml:id="r26p3" facs="#p3r26" n="26" break="no"/>
-    libri aperti sullo scrittoio
-    <pc type="period">.</pc>
-    Mi parlava, modesto e tranquillo
-    <pc type="comma">,</pc>
-    di ciò
-    <!--  Riga 27  -->
-    <lb xml:id="r27p3" facs="#p3r27" n="27" break="no"/>
-    che avrebbe fatto
-    <pc type="comma">,</pc>
-    come se tutte le vie gli fossero pienamente aperte
-    <pc type="colons">:</pc>
-    <!--  Riga 28  -->
-    <lb xml:id="r28p3" facs="#p3r28" n="28" break="no"/>
-    e per vero gli rimaneva aperta la via maestra
-    <pc type="colons">:</pc>
-    la via del puro ideale
-    <pc type="period">.</pc>
-    </ab>
-    <!--  Pagina 4 -->
-<ab type="page" xml:lang="it" n="4">
-    <!--  Inizio della pagina -->
-    <pb xml:id="p4" facs="#s4"/>
-    <!--  Riga 1 -->
-    <lb xml:id="r1p4" facs="#p4r1" n="1" break="no"/>
-    Ascoltando il suono della Sua voce
-    <pc type="comma">,</pc>
-    pareva a me di rivivere i
-    <corr>freschi</corr>
-    <!--  parola corretta a penna, non si capisce a macchina cosa è stato messo -->
-    <!--  Riga 2 -->
-    <lb xml:id="r2p4" facs="#p4r2" n="2" break="no"/>
-    sogni della mia giovinezza studiosa
-    <pc type="period">.</pc>
-    Si congedò con un sorriso
-    <pc type="comma">,</pc>
-    e fu
-    <!--  Riga 3 -->
-    <lb xml:id="r3p4" facs="#p4r3" n="3" break="yes"/>
-    l'ultima volta che lo vidi
-    <pc type="period">.</pc>
-    <!--  Riga 4  -->
-    <lb xml:id="r4p4" facs="#p4r4" n="4" break="no"/>
-    Amici miei
-    <pc type="comma">,</pc>
-    nelle ore dure
-    <pc type="comma">,</pc>
-    nelle ore tristi mi conforta quel
-    <!--  Riga 5  -->
-    <lb xml:id="r5p4" facs="#p4r5" n="5" break="no"/>
-    chiaro sorriso di fanciullo
-    <pc type="comma">:</pc>
-    così possa confortare anche
-    <corr>voi</corr>
-    e sia
-    <!--  qui errore di battitura a macchina -->
-    <!--  Riga 6  -->
-    <lb xml:id="r6p4" facs="#p4r6" n="6" break="no"/>
-    per questo mille volte benedetta la Sua memoria!
-    <!--  Riga 7  -->
-    <lb xml:id="r7p4" facs="#p4r7" n="7" break="yes"/>
-    <signed>Benvenuto Terracini</signed>
-    <pc type="period">.</pc>
-    </ab>
-</body>
+                <!-- Pagina 2-->
+                <ab type="page" xml:lang="it" n="2">
+                    <!-- Inizio della pagina-->
+                    <pb xml:id="p2" facs="#s2"/>
+                    <!-- Riga 1-->
+                    <lb xml:id="r1p2" facs="#p2r1" n="1" break="no"/>
+                    gioventù<pc type="comma">,</pc> diceva Ennio"<pc type="colons">:</pc>noi<pc type="comma">,</pc> sebbene più giovani <pc type="comma">,</pc> siamo molto più
+                    <!-- Riga 2-->
+                    <lb xml:id="r2p2" facs="#p2r2" n="2" break="yes"/>
+                    vecchi di quelli che commemoravano Purim due o tre anni or sono"<pc type="period">.</pc>
+                    <!--  Riga 3-->
+                    <lb xml:id="r3p2" facs="#p2r3" n="3" break="no"/>
+                    Poveri ragazzi! quando ripensiamo alla nostra gioventù serena<pc type="comma">,</pc> come fie=
+                    <!-- Riga 4-->
+                    <lb xml:id="r4p2" facs="#p2r4" n="4" break="no"/>
+                    ramente si duole che il destino abbia loro riserbato tanta inquieta 
+                    <!-- Riga 5-->
+                    <lb xml:id="r5p2" facs="#p2r5" n="5" break="no"/>
+                    esperienza! Ma se rileggiamo le poche allocuzioni occasionali di cui
+                    <!-- Riga 6-->
+                    <lb xml:id="r6p2" facs="#p2r6" n="6" break="no"/>
+                    Ennio lasciò nota scritta<pc type="comma">,</pc> se ricordiamo le Sue lezioni<pc type="comma">,</pc> i temi da
+                    <!-- Riga 7-->
+                    <lb xml:id="r7p2" facs="#p2r7" n="7" break="no"/>
+                    svolgere che consigliò ai compagni<pc type="comma">,</pc> se ricordiamo tutto quanto Egli
+                    <!-- Riga 8-->
+                    <lb xml:id="r8p2" facs="#p2r8" n="8" break="no"/>
+                    fece perchè ciascuno di questi libri desse al lettore tutto il suo
+                    <!-- Riga 9-->
+                    <lb xml:id="r9p2" facs="#p2r9" n="9" break="no"/>
+                    contenuto<pc type="comma">,</pc> ci accorgiamo tosto che Ennio non alludeva alla vecchiezza
+                    <!-- Riga 10-->
+                    <lb xml:id="r10p2" facs="#p2r10" n="10" break="no"/>
+                    che piega sotto il peso degli eventi<pc type="comma">,</pc> ma ad una maturità consapevole<pc type="comma">,</pc>
+                    <!-- Riga 11-->
+                    <lb xml:id="r11p2" facs="#p2r11" n="11" break="yes"/>
+                    quella maturità che Egli mostrava di possedere p<corr>ie</corr><!-- Due lettere corrette a mano-->namente<pc type="period">.</pc>
+                    <!-- Riga 12-->
+                    <lb xml:id="r12p2" facs="#p2r12" n="12" break="no"/>
+                    Fra i molti problemi che l'ora presente ci impone <pc type="comma">,</pc> sono fermamente 
+                    <!-- Riga 13-->
+                    <lb xml:id="r13p2" facs="#p2r13" n="13" break="no"/>
+                    convinto che il più delicato <pc type="comma">,</pc> il più difficile<pc type="comma">,</pc> il più urgente sia
+                    <!--  Riga 14-->
+                    <lb xml:id="r14p2" facs="#p2r14" n="14" break="no"/>
+                    quello di alimentare fra i nostri giovani quella fiamma del conoscere
+                    <!-- Riga 15-->
+                    <lb xml:id="r15p2" facs="#p2r15" n="15" break="no"/>
+                    e del sapere che va ben oltre i bisogni della vita<pc type="comma">,</pc> oltre le ambizioni
+                    <!-- Riga 16-->
+                    <lb xml:id="r16p2" facs="#p2r16" n="16" break="no"/>
+                    della carriera<pc type="comma">,</pc> quella fiamma dell'ideale che è stata la forza
+                    <!-- Riga 17-->
+                    <lb xml:id="r17p2" facs="#p2r17" n="17" break="no"/>
+                    dei nostri padri<pc type="comma">,</pc> che deve essere pure la nostra forza<pc type="comma">,</pc> se vogliamo tenere
+                    <!-- Riga 18-->
+                    <lb xml:id="r18p2" facs="#p2r18" n="18" break="no"/>
+                    degnamente il posto<pc type="comma">,</pc> difficilissimo posto<pc type="comma">,</pc> che ci compete nella storia
+                    <!-- Riga 19-->
+                    <lb xml:id="r19p2" facs="#p2r19" n="19" break="yes"/>
+                    di questa tormentata umanità<pc type="period">.</pc>
+                    <!-- Riga 20-->
+                    <lb xml:id="r20p2" facs="#p2r20" n="20" break="no"/>
+                    Ora<pc type="comma">,</pc> in un primo tempo<pc type="comma">,</pc> chi di èiù adatto ad iniziare questo compito
+                    <!-- Riga 21-->
+                    <lb xml:id="r21p2" facs="#p2r21" n="21" break="no"/>
+                    che un giovane il quale aveva ancora potuto formarsi alle scuole pub=
+                    <!-- Riga 22-->
+                    <lb xml:id="r22p2" facs="#p2r22" n="22" break="no"/>
+                    bliche la cultura superiore indispensabile<pc type="comma">,</pc> e nel tempo stesso divi=
+                    <!-- Riga 23-->
+                    <lb xml:id="r23p2" facs="#p2r23" n="23" break="yes"/>
+                    deva con i compagni l'angoscia delle speranze troppo presto troncate?
+                    <!-- Riga 24-->
+                    <lb xml:id="r24p2" facs="#p2r24" n="24" break="no"/>
+                    Questo giovane fu<pc type="comma">,</pc> se non unicamente<pc type="comma">,</pc> perché gli erano accanto amici
+                    <!-- Riga 25-->
+                    <lb xml:id="r25p2" facs="#p2r25" n="25" break="yes"/>
+                    egregi e tra i primi il suo fratello<pc type="comma">,</pc> fu principalmente Ennio Artom<pc type="period">.</pc>
+                    <!-- Riga 26-->
+                    <lb xml:id="r26p2" facs="#p2r26" n="26" break="no"/>
+                    Il quale tuttavia assolse il Suo compito portandovi qualche cosa<corr>a</corr><!-- Errore di battitura corretto a mano-->di
+                    <!-- Riga 27-->
+                    <lb xml:id="r27p2" facs="#p2r27" n="27" break="no"/>
+                    veramente<pc type="comma">,</pc> di unicamente Suo<pc type="semicolon">;</pc> non alludo io qua alla vestità delle Sue
+                    <!-- Riga 28-->
+                    <lb xml:id="r28p2" facs="#p2r28" n="28" break="no"/>
+                    conoscenze<pc type="comma">,</pc> alla Sua padronanza della storia e delle lingue di Israele<pc type="semicolon">;</pc>
+                    <!-- Riga 29-->
+                    <lb xml:id="r29p2" facs="#p2r29" n="29" break="no"/>
+                    penso piuttosto a quella Sua-direi-coscienza storica che gli permetteva
+                </ab>
 
 
+                <!--  Pagina 3 -->
+                <ab type="page" xml:lang="it" n="3">
+                    <!--  Inizio della pagina -->
+                    <pb xml:id="p3" facs="#s3"/>
+                    <!--  Riga 1 -->
+                    <lb xml:id="r1p3" facs="#p3r1" n="1" break="no"/>
+                    una pacatezza di giudizio che tanto più profondamente incideva negli
+                    <!--  Riga 2 -->
+                    <lb xml:id="r2p3" facs="#p3r2" n="2" break="no"/>
+                    animi<pc type="comma">,</pc>quanto più appariva staccata da ogni rancore, da ogni passione
+                    <!--  Riga 3 -->
+                    <lb xml:id="r3p3" facs="#p3r3" n="3" break="no"/>
+                    intransigente<pc type="period">.</pc>Era un ragionare acuto il Suo<pc type="colons">:</pc>sottile talvolta di un
+                    <!--  Riga 4  -->
+                    <lb xml:id="r4p3" facs="#p3r4" n="4" break="no"/>
+                    formalismo quaso talmudico<pc type="comma">,</pc>talvolta pieno di un umorismo altrettanto
+                    <!--  Riga 5  -->
+                    <lb xml:id="r5p3" facs="#p3r5" n="5" break="no"/>
+                    ebraico, sempre diritto al suo fine<pc type="comma">,</pc>sempre caldo di un sentimento in=
+                    <!--  Riga 6  -->
+                    <lb xml:id="r6p3" facs="#p3r6" n="6" break="no"/>
+                    nato del giusto e del vero<pc type="period">.</pc>Virtù avite e -mi è caro di dirtelo/dartelo in que=
+                    <!--  Riga 7  -->
+                    <lb xml:id="r7p3" facs="#p3r7" n="7" break="no"/>
+                    sto momento<pc type="comma">,</pc>amico Emilio - virtù dell'ingegno paterno che rifiorivano
+                    <!--  Riga 8  -->
+                    <lb xml:id="r8p3" facs="#p3r8" n="8" break="no"/>
+                    in questo giovane<pc type="comma">,</pc>mentre donava ai compagni una parola di operante
+                    <!--  Riga 9  -->
+                    <lb xml:id="r9p3" facs="#p3r9" n="9" break="yes"/>
+                    coraggio
+                    <pc type="period">.</pc>
+                    <!--  Riga 10  -->
+                    <lb xml:id="r10p3" facs="#p3r10" n="10" break="no"/>
+                    Sono le stesse virtù che informarono gli studi linguistici ai quali
+                    <!--  Riga 11  -->
+                    <lb xml:id="r11p3" facs="#p3r11" n="11" break="no"/>
+                    si era volto per una vocazione connaturata addiritura allo spirito Suo
+                    <pc type="period">.</pc>
+                    <!--  Riga 12  -->
+                    <lb xml:id="r12p3" facs="#p3r12" n="12" break="no"/>
+                    Da ricerche che sono qualche cosa di più di semplici esercitazioni sco=
+                    <!--  Riga 13  -->
+                    <lb xml:id="r13p3" facs="#p3r13" n="13" break="no"/>
+                    lastiche alla recentissima tesi di laurea
+                    <pc type="comma">,</pc>
+                    chi rilegge quelle pagine
+                    <!--  Riga 14  -->
+                    <lb xml:id="r14p3" facs="#p3r14" n="14" break="no"/>
+                    e vi ritrova quella sensibilità al dato filologico e al valore storico
+                    <!--  Riga 15  -->
+                    <lb xml:id="r15p3" facs="#p3r15" n="15" break="no"/>
+                    del linguaggio umano che è difficilissima da acquisire anche ai più
+                    <!--  Riga 16  -->
+                    <lb xml:id="r16p3" facs="#p3r16" n="16" break="no"/>
+                    esperti
+                    <pc type="comma">,</pc>
+                    e si compiace dei problemi nitidamente delimitati e dominati
+                    <!--  Riga 17  -->
+                    <lb xml:id="r17p3" facs="#p3r17" n="17" break="no"/>
+                    con signorile coltura
+                    <pc type="comma">,</pc>
+                    intuisce questa vita celino queste povere reli=
+                    <!--  Riga 18  -->
+                    <lb xml:id="r18p3" facs="#p3r18" n="18" break="no"/>
+                    e quante promesse
+                    <pc type="comma">,</pc>
+                    e si augura che esse possano venire raccolte
+                    <!--  Riga 19  -->
+                    <lb xml:id="r19p3" facs="#p3r19" n="19" break="no"/>
+                    e serbate non solo alla pietà dei congiunti
+                    <pc type="comma">,</pc>
+                    ma alla scienza glottolo=
+                    <!--  Riga 20  -->
+                    <lb xml:id="r20p3" facs="#p3r20" n="20" break="no"/>
+                    gica
+                    <pc type="period">.</pc>
+                    Sulla facoltà costruttiva prevale ancora in esse l'acume critico
+                    <pc type="comma">,</pc>
+                    <!--  Riga 21  -->
+                    <lb xml:id="r21p3" facs="#p3r21" n="21" break="no"/>
+                    come è naturale nei giovani che si affacciano baldi al mondo del sapere
+                    <!--  Riga 22  -->
+                    <lb xml:id="r22p3" facs="#p3r22" n="22" break="no"/>
+                    e nell'abito critico temprano la disciplina del loro pensiero
+                    <pc type="period">.</pc>
+                    <!--  Riga 23  -->
+                    <lb xml:id="r23p3" facs="#p3r23" n="23" break="no"/>
+                    Già Ennio disegnava nuovi studi e nuove indagini
+                    <pc type="colons">:</pc>
+                    ne discorrevamo
+                    <!--  Riga 24  -->
+                    <lb xml:id="r24p3" facs="#p3r24" n="24" break="no"/>
+                    un giorno nel mio studio
+                    <pc type="comma">,</pc>
+                    da buoni compagni: mi parlava con abbandono
+                    <!--  Riga 25  -->
+                    <lb xml:id="r25p3" facs="#p3r25" n="25" break="no"/>
+                    confidente, ritto in piedi
+                    <pc type="comma">,</pc>
+                    accarezzando con mano distratta uno dei
+                    <!--  Riga 26  -->
+                    <lb xml:id="r26p3" facs="#p3r26" n="26" break="no"/>
+                    libri aperti sullo scrittoio
+                    <pc type="period">.</pc>
+                    Mi parlava, modesto e tranquillo
+                    <pc type="comma">,</pc>
+                    di ciò
+                    <!--  Riga 27  -->
+                    <lb xml:id="r27p3" facs="#p3r27" n="27" break="no"/>
+                    che avrebbe fatto
+                    <pc type="comma">,</pc>
+                    come se tutte le vie gli fossero pienamente aperte
+                    <pc type="colons">:</pc>
+                    <!--  Riga 28  -->
+                    <lb xml:id="r28p3" facs="#p3r28" n="28" break="no"/>
+                    e per vero gli rimaneva aperta la via maestra
+                    <pc type="colons">:</pc>
+                    la via del puro ideale
+                    <pc type="period">.</pc>
+                </ab>
+
+
+                <!--  Pagina 4 -->
+                <ab type="page" xml:lang="it" n="4">
+                    <!--  Inizio della pagina -->
+                    <pb xml:id="p4" facs="#s4"/>
+                    <!--  Riga 1 -->
+                    <lb xml:id="r1p4" facs="#p4r1" n="1" break="no"/>
+                    Ascoltando il suono della Sua voce<pc type="comma">,</pc>pareva a me di rivivere i<corr>freschi</corr><!--  parola corretta a penna, non si capisce a macchina cosa è stato messo -->
+                    <!--  Riga 2 -->
+                    <lb xml:id="r2p4" facs="#p4r2" n="2" break="no"/>
+                    sogni della mia giovinezza studiosa<pc type="period">.</pc>Si congedò con un sorriso<pc type="comma">,</pc>e fu
+                    <!--  Riga 3 -->
+                    <lb xml:id="r3p4" facs="#p4r3" n="3" break="yes"/>
+                    l'ultima volta che lo vidi<pc type="period">.</pc>
+                    <!--  Riga 4  -->
+                    <lb xml:id="r4p4" facs="#p4r4" n="4" break="no"/>
+                    Amici miei<pc type="comma">,</pc>nelle ore dure<pc type="comma">,</pc>nelle ore tristi mi conforta quel
+                    <!--  Riga 5  -->
+                    <lb xml:id="r5p4" facs="#p4r5" n="5" break="no"/>
+                    chiaro sorriso di fanciullo<pc type="comma">:</pc>così possa confortare anche<corr>voi</corr>e sia<!--  qui errore di battitura a macchina -->
+                    <!--  Riga 6  -->
+                    <lb xml:id="r6p4" facs="#p4r6" n="6" break="no"/>
+                    per questo mille volte benedetta la Sua memoria!
+                    <!--  Riga 7  -->
+                    <lb xml:id="r7p4" facs="#p4r7" n="7" break="yes"/>
+                    Benvenuto Terracini<pc type="period">.</pc>
+                </ab>
+            </body>
      </text>
       
      <text xml:id="testo" xml:lang="it" hand="#BS" type="" subtype=""> <!-- Lettera 2 di Bruno Segre-->
