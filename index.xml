@@ -773,7 +773,7 @@
         </body>
     </text>
 
-    <back> <!-- appendici -->
+    <back> <!-- appendici, vanno messi nelle due lettere....tag text -->
             <listPerson>
                 <person xml:id="BT">
                     <persName>
@@ -874,13 +874,11 @@
                 </place>
             </listPlace>
 
-            <listOrg>
-
-            </listOrg>
+            <!--<listOrg>
+            </listOrg> 
 
             <listBibl>
+            </listBibl> -->
+    </back>
 
-            </listBibl>
-        </back>
-     </text>
 </TEI>
