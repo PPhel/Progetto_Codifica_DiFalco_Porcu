@@ -430,7 +430,7 @@
 
      <!-- in text inizia la trascrizione vera e propria-->
      
-     <text xml:id="testo" xml:lang="it" hand="#BT" type="" subtype=""> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
+<text xml:id="testo" xml:lang="it" hand="#BT" type="lettera"> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
         <body>
             <!--  Pagina 1 -->
 <ab type="page" xml:lang="it" n="1">
@@ -845,7 +845,7 @@
     per questo mille volte benedetta la Sua memoria!
     <!--  Riga 7  -->
     <lb xml:id="r7p4" facs="#p4r7" n="7" break="yes"/>
-    Benvenuto Terracini
+    <signed>Benvenuto Terracini</signed>
     <pc type="period">.</pc>
     </ab>
 </body>
@@ -880,7 +880,7 @@
     <lb xml:id="r5p5" facs="#p5r5" n="5" break="no"/>
     TELEF. 184
     <!--  Cambio di grafia -->
-    Gentili Signori
+    <salute>Gentili Signori</salute>
     <!--  Riga 6 -->
     <lb xml:id="r6p5" facs="#p5r6" n="6" break="no"/>
     con profondo dolore appresi
