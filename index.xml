@@ -375,6 +375,7 @@
             <zone xml:id="p5r29" ulx="37" uly="934" lrx="672" lry="981" />
         </surface>
      </facsimile>
+     
      <!-- in text inizia la trascrizione vera e propria-->
     <text xml:id="lettera1" xml:lang="it" hand="#BT" type="lettera"> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
             <body>
