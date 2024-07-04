@@ -169,52 +169,28 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
         <encodingDesc>
             <projectDesc>
                 <p>Edizione digitale realizzata per l'esame di Codifica di Testi AA 22/23.</p>
             </projectDesc>
-
             <editorialDecl>
                 <correction method="markup" status="high">
-                    
                     <p> gli errori</p>
-                
                 </correction>
                 <normalization method="markup">
-                    
-                    
-                    
-                    
                     <p> </p>
-
-
-
                 </normalization>
-
                 <punctuation marks="all" placement="internal">
-
-
                 </punctuation>
-
-                
                 <hyphenation eol="all">
-                    
                     <p></p>
-                    
                 </hyphenation>
-
                 <quotation marks="all">
-
-
                 </quotation>
-                
             </editorialDecl>
-
             <refsDecl>
                 <p></p>
             </refsDecl>
-
             </encodingDesc>
             <profileDesc>
                 <langUsage>
@@ -231,33 +207,18 @@
                     <preparedness type="none"/>
                     <!-- Purpose da rivedere-->
                     <purpose></purpose>
-                     
-
-
                 </textDesc>
-
                 <creation>
-
                     <listChange>
                         <change when="1940-12-10" who="#BT">
                             Le pagine<ref target="#p1">1</ref>,<ref target="#p2">2</ref>, <ref target="#p3">3</ref>e <ref target="#p4">4</ref> sono state scritte il <date when="1940-12-06">6 Dicembre 1940</date>
                         </change>
-
                         <change when="1945-06-02" who="#BS">
                             La pagina<ref target="#p5">5</ref>+ stat scritta il <date when="1945-06-02">2 Giugno 1945</date>
-
                         </change>
-                        
-                        
                     </listChange>
-
-                    
-
-
                 </creation>
-
                 <correspDesc>
-
                     <correspAction type="sent">
                         <persName>Benvenuto Terracini</persName>
                         <settlement>Torino</settlement>
@@ -267,17 +228,11 @@
                         <persName>Bruno Segre</persName>
                         <settlement>Torino</settlement>
                         <date when="1945-06-02">2 Giugno 1945</date>
-
-
                     </correspAction>
                 </correspDesc>
-            </profileDesc>
-
-
-
-
-            
+            </profileDesc>     
     </teiHeader>
+    
     <!-- Facsimile serve per la rappresentazione grafica-->
      <facsimile>
         <!-- Pagina 1-->
@@ -310,7 +265,6 @@
             <zone xml:id="p1r25" ulx="113" uly="815" lrx="747" lry="833" />
             <zone xml:id="p1r26" ulx="90" uly="847" lrx="727" lry="867" />
         </surface>
-
         <!-- Pagina 2-->
         <surface xml:id="s2" n="2">
             <graphic url='img/2.jpg' width='806.4px' height='1024.4px' />
@@ -344,9 +298,7 @@
             <zone xml:id="p2r28" ulx="112" uly="882" lrx="759" lry="899" />
             <zone xml:id="p2r29" ulx="117" uly="908" lrx="757" lry="929" />
         </surface>
-
         <!-- Pagina 3-->
-
         <surface xml:id="s3" n="3">
             <graphic url='img/3.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p3r1" ulx="102" uly="112" lrx="733" lry="130" />
@@ -378,7 +330,6 @@
             <zone xml:id="p3r27" ulx="110" uly="865" lrx="744" lry="880" />
             <zone xml:id="p3r28" ulx="111" uly="897" lrx="745" lry="908" />
         </surface>
-
         <!-- Pagina 4-->
         <surface xml:id="s4" n="4">
             <graphic url='img/4.jpg' width='806.4px' height='1024.4px' />
@@ -390,7 +341,6 @@
             <zone xml:id="p4r6" ulx="103" uly="263" lrx="536" lry="285" />
             <zone xml:id="p4r7" ulx="315" uly="305" lrx="506" lry="330" />
         </surface>
-
         <!-- Pagina 5-->
         <surface xml:id="s5" n="5">
             <graphic url='img/5.jpg' width='746.4px' height='1024.4px' />
@@ -424,158 +374,96 @@
             <zone xml:id="p5r28" ulx="44" uly="903" lrx="685" lry="928" />
             <zone xml:id="p5r29" ulx="37" uly="934" lrx="672" lry="981" />
         </surface>
-
-
      </facsimile>
-
      <!-- in text inizia la trascrizione vera e propria-->
      
 <text xml:id="testo" xml:lang="it" hand="#BT" type="lettera"> <!-- Lettera 1 di Benvenuto Terracini, alcuni tratti risultano meno chiari di altri-->
         <body>
             <!--  Pagina 1 -->
-<ab type="page" xml:lang="it" n="1">
-    <!--  Inizio della pagina -->
-    <pb xml:id="p1" facs="#s1"/>
-    <!-- Riga 1. Iniziamo con la data della lettera -->
-    <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
-    <placeName ref="#TO">
-    Torino
-    <settlement/>
-    </placeName>
-    <pc type="comma">,</pc>
-    <date when="1940-12-8">
-    8 dicembre 1940
-    <pc type="period">.</pc>
-    </date>
-    <!--  Riga 2 -->
-    <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
-    L'onda dei ricordi si acqueta nei nostri cuori<!-- Acqueta termine letterario-->
-    <pc type="comma">,</pc>
-    si addolcisce il
-    <!--  Riga 3 -->
-    <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
-    pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
-    <!--  Riga 4 -->
-    <lb xml:id="r4p1" facs="#p1r4" n="4" break="no"/>
-    fetto che portavo a quel loro figliolo mi fa tanto ardito da
-    <!--  Riga 5 -->
-    <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
-    penetrare per un momento nel segreto del loro dolore -rimane negli a=
-    <!--  Riga 6 -->
-    <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
-    nimi una pacata serenità
-    <pc type="period">.</pc>
-    <!--  Riga 7 -->
-    <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/>
-    <corr>Perchè</corr>
-    <!--   Parola corretta a penna -->
-    <pc type="comma">,</pc>
-    di improvviso
-    <pc type="comma">,</pc>
-    io non posso pensare al povero Ennio
-    <pc type="comma">,</pc>
-    senza
-    <!--  Riga 8 -->
-    <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
-    che mi venga incontro la Sua figura come è nel ricordo più antico che
-    <!--  Riga 9  -->
-    <lb xml:id="r9p1" facs="#p1r9" n="9" break="no"/>
-    serbo di Lui
-    <pc type="comma">,</pc>
-    quando a me si accompagnava lungo i preti
-    <!--  Riga 10  -->
-    <lb xml:id="r10p1" facs="#p1r10" n="10" break="no"/>
-    del Villair: viva era la parola
-    <pc type="comma">,</pc>
-    arguta
-    <pc type="comma">,</pc>
-    pronta la risposta
-    <pc type="comma">,</pc>
-    ma in
-    <!--  Riga 11  -->
-    <lb xml:id="r11p1" facs="#p1r11" n="11" break="no"/>
-    quei suoi occhi sereni si rifletteva come una grande calma
-    <pc type="semicolon">;</pc>
-    l'azzurra
-    <!--  Riga 12  -->
-    <lb xml:id="r12p1" facs="#p1r12" n="12" break="no"/>
-    pace dell'alpe
-    <pc type="comma">,</pc>
-    quella pace che
-    <pc type="comma">,</pc>
-    assieme al volto paterno
-    <pc type="comma">,</pc>
-    cullò il
-    <!--  Riga 13  -->
-    <lb xml:id="r13p1" facs="#p1r13" n="13" break="yes"/>
-    Suo sguardo si chiuse alla grande ombra
-    <pc type="period">.</pc>
-    <!--  Riga 14  -->
-    <lb xml:id="r14p1" facs="#p1r14" n="14" break="no"/>
-    Eppure è necessario che Lo ricordiamo qui
-    <pc type="comma">,</pc>
-    nel chiuso di queste pic=
-    <!--  Riga 15  -->
-    <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
-    cola biblioteca
-    <pc type="comma">,</pc>
-    perchè il destino ha consentito a questo fanciullo di
-    <!--  Riga 16  -->
-    <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
-    dere qui la prova più complessa ,più ardua della Sua maturità precoce
-    <pc type="period">.</pc>
-    <!--  Riga 17  -->
-    <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
-    Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
-    <!--  Riga 18  -->
-    <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
-    anni or sono
-    <pc type="comma">,</pc>
-    quando il piccolo Ennio -come ci disse la Signorina Treves-
-    <!--  Riga 19  -->
-    <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
-    era un batuffolo rosa trotterellante per le vie di Morgex
-    <pc type="period">.</pc>
-    Fondata da
-    <!--  Riga 20  -->
-    <lb xml:id="r20p1" facs="#p1r20" n="20" break="no"/>
-    alcuni volenterosi perchè diventasse un modesto centro di studi dove i
-    <!--  Riga 21  -->
-    <lb xml:id="r21p1" facs="#p1r21" n="21" break="no"/>
-    giovani ritrovassero nella storia dei nostri padri la ragione del loro
-    <!--  Riga 22  -->
-    <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
-    essere di Ebrei
-    <pc type="comma">,</pc>
-    della Università popolare ebraica
-    <pc type="comma">,</pc>
-    passò alla Associa=
-    <!--  Riga 23  -->
-    <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
-    zione giovanile
-    <pc type="comma">,</pc>
-    da questa passò poi ai giovani dell'Honeg Shebbth
-    <pc type="comma">,</pc>
-    e
-    <!--  Riga 24  -->
-    <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
-    da essi passò finalmente ai giovanissimi
-    <pc type="period">.</pc>
-    <!--  Riga 25  -->
-    <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
-    Giovanissimi
-    <pc type="interrogative">?</pc>
-    ecco
-    <pc type="colons">:</pc>
-    diceva Ennio in quest'aula
-    <pc type="comma">,</pc>
-    commemorando il Purim
-    <!--  Riga 26  -->
-    <lb xml:id="r26p1" facs="#p1r26" n="26" break="no"/>
-    quasi a scagionare sé e gli amici della felice accusa di
-    </ab>
+            <ab type="page" xml:lang="it" n="1">
+                <!--  Inizio della pagina -->
+                <pb xml:id="p1" facs="#s1"/>
+                <!-- Riga 1. Iniziamo con la data della lettera -->
+                <lb xml:id="r1p1" facs="#p1r1" n="1" break="yes"/>
+                <placeName ref="#TO">Torino<settlement/></placeName><pc type="comma">,</pc><date when="1940-12-8">8 dicembre 1940<pc type="period">.</pc></date>
+                <!--  Riga 2 -->
+                <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
+                L'onda dei ricordi si <orig>acqueta</orig> nei nostri cuori<!-- Acqueta termine letterario--><pc type="comma">,</pc>si addolcisce il
+                <!--  Riga 3 -->
+                <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
+                pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
+                <!--  Riga 4 -->
+                <lb xml:id="r4p1" facs="#p1r4" n="4" break="no"/>
+                fetto che portavo a quel loro figliolo mi fa tanto ardito da
+                <!--  Riga 5 -->
+                <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
+                penetrare per un momento nel segreto del loro dolore -rimane negli a=
+                <!--  Riga 6 -->
+                <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
+                nimi una pacata serenità<pc type="period">.</pc>
+                <!--  Riga 7 -->
+                <lb xml:id="r7p1" facs="#p1r7" n="7" break="no"/><corr>Perchè</corr><!--   Parola corretta a penna --><pc type="comma">,</pc>di improvviso<pc type="comma">,</pc>io non posso pensare al povero Ennio<pc type="comma">,</pc>senza
+                <!--  Riga 8 -->
+                <lb xml:id="r8p1" facs="#p1r8" n="8" break="no"/>
+                che mi venga incontro la Sua figura come è nel ricordo più antico che
+                <!--  Riga 9  -->
+                <lb xml:id="r9p1" facs="#p1r9" n="9" break="no"/>
+                serbo di Lui<pc type="comma">,</pc>quando a me si accompagnava lungo i preti
+                <!--  Riga 10  -->
+                <lb xml:id="r10p1" facs="#p1r10" n="10" break="no"/>
+                del Villair: viva era la parola <pc type="comma">,</pc> arguta <pc type="comma">,</pc> pronta la risposta <pc type="comma">,</pc> ma in
+                <!--  Riga 11  -->
+                <lb xml:id="r11p1" facs="#p1r11" n="11" break="no"/>
+                quei suoi occhi sereni si rifletteva come una grande calma <pc type="semicolon">;</pc> l'azzurra
+                <!--  Riga 12  -->
+                <lb xml:id="r12p1" facs="#p1r12" n="12" break="no"/>
+                pace dell'alpe <pc type="comma">,</pc> quella pace che <pc type="comma">,</pc> assieme al volto paterno <pc type="comma">,</pc> cullò il
+                <!--  Riga 13  -->
+                <lb xml:id="r13p1" facs="#p1r13" n="13" break="yes"/>
+                Suo sguardo si chiuse alla grande ombra <pc type="period">.</pc>
+                <!--  Riga 14  -->
+                <lb xml:id="r14p1" facs="#p1r14" n="14" break="no"/>
+                Eppure è necessario che Lo ricordiamo qui <pc type="comma">,</pc> nel chiuso di queste pic=
+                <!--  Riga 15  -->
+                <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
+                cola biblioteca <pc type="comma">,</pc> perchè il destino ha consentito a questo fanciullo di
+                <!--  Riga 16  -->
+                <lb xml:id="r16p1" facs="#p1r16" n="16" break="yes"/>
+                dere qui la prova più complessa ,più ardua della Sua maturità precoce <pc type="period">.</pc>
+                <!--  Riga 17  -->
+                <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
+                Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
+                <!--  Riga 18  -->
+                <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
+                anni or sono <pc type="comma">,</pc> quando il piccolo Ennio -come ci disse la Signorina Treves-
+                <!--  Riga 19  -->
+                <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
+                era un batuffolo rosa trotterellante per le vie di Morgex <pc type="period">.</pc> Fondata da
+                <!--  Riga 20  -->
+                <lb xml:id="r20p1" facs="#p1r20" n="20" break="no"/>
+                alcuni volenterosi perchè diventasse un modesto centro di studi dove i
+                <!--  Riga 21  -->
+                <lb xml:id="r21p1" facs="#p1r21" n="21" break="no"/>
+                giovani ritrovassero nella storia dei nostri padri la ragione del loro
+                <!--  Riga 22  -->
+                <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
+                essere di Ebrei <pc type="comma">,</pc> della Università popolare ebraica <pc type="comma">,</pc> passò alla Associa=
+                <!--  Riga 23  -->
+                <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
+                zione giovanile <pc type="comma">,</pc>da questa passò poi ai giovani dell'Honeg Shebbth<pc type="comma">,</pc> e
+                <!--  Riga 24  -->
+                <lb xml:id="r24p1" facs="#p1r24" n="24" break="yes"/>
+                da essi passò finalmente ai giovanissimi<pc type="period">.</pc>
+                <!--  Riga 25  -->
+                <lb xml:id="r25p1" facs="#p1r25" n="25" break="no"/>
+                Giovanissimi<pc type="interrogative">?</pc> ecco <pc type="colons">:</pc> diceva Ennio in quest'aula<pc type="comma">,</pc>commemorando il Purim
+                <!--  Riga 26  -->
+                <lb xml:id="r26p1" facs="#p1r26" n="26" break="no"/>
+                quasi a scagionare sé e gli amici della felice accusa di
+            </ab>
+
     <!-- Pagina 2-->
-<ab type="page" xml_lang="it" n="2">
+<ab type="page" xml:lang="it" n="2">
     <!-- Inizio della pagina-->
      <pb xml:id="p2" facs="#s2"/>
      <!-- Riga 1-->
