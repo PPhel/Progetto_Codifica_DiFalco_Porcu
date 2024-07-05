@@ -19,25 +19,61 @@
                 <surname>Segre</surname>
             </persName>
             <birth>
-
+                <date when="1918-09-04">4 Settembre 1918</date>
+                <placename ref="TO">
+                    <settlement type="municipality">Torino</settlement>
+                    <settlement type="district">Torino</settlement>
+                </placename>
             </birth>
             <death>
-
+                <date when="2024-01-27">27 Gennaio 2024</date>
+                <placename ref="TO">
+                    <settlement type="municipality">Torino</settlement>
+                    <settlement type="district">Torino</settlement>
+                </placename>
             </death>
-            <note>Bruno fu un noto avvocato italiano. Nella sua lettera, di cui noi abbiamo codificato unicamente la pagina iniziale</note>
+            <note>Bruno fu un noto avvocato italiano. Nella sua lettera, di cui noi abbiamo codificato unicamente la pagina iniziale, ricorda Emanuele Artom</note>
         </person>
-        <person xml:id="ES" role="brother">
+        <person xml:id="EMA" role="partisan">
+            <persName>
+                <forename>Emanuele</forename>
+                <surname>Artom</surname>
+            </persName>
+            <birth>
+                <date when="1916-06-23">23 Giugno 1916</date>
+                <placename ref="AO">
+                    <settlement type="municipality">Aosta</settlement>
+                    <settlement type="district">Aosta</settlement>
+                </placename>
+            </birth>
+            <death>
+                <date when="1944-03-25">25 Marzo 1944</date>
+                <placename ref="TO">
+                    <settlement type="municipality">Torino</settlement>
+                    <settlement type="district">Torino</settlement>
+                </placename>
+            </death>
+            <note>Emanuele Artom è stato un valoroso partigiano ebreo italiano. Diede vita a un circolo culturale ebraico a Torino. Morì dopo atroci torture perpetartegli durante i rastrellamenti di Torino del 1944.</note>
+        </person>
+        <person xml:id="EA" role="brother">
             <persName>
                 <forename>Ennio</forename>
                 <surname>Artom</surname>
             </persName>
             <birth>
-
+                <date when="1920-04-25">25 Aprile 1920</date>
+                <placename ref="TO">
+                    <settlement type="municipality">Torino</settlement>
+                    <settlement type="district">Torino</settlement>
+                </placename>
             </birth>
             <death>
-
+                <date when="1940-07-29">29 Luglio 1940</date>
+                <placename ref="CO">
+                    <settlement type="municipality">Couramyeur</settlement>
+                </placename>
             </death>
-            <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente il 29 Giugno 1940. Di lui ci sono poche informazioni online.</note>
+            <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
 
         </person>
         <person xml:id="ASA" role="teacher">
@@ -46,7 +82,7 @@
                 <surname>Segre Artom</surname>
             </persName>
             <birth>
-                <date when="1890-01-01">1890(giorno e mese sconosciuti)</date>
+                <date when="1890-05-12">12 Maggio 1890</date>
                 <placename ref="TO">
                     <settlement type="municipality">Torino</settlement>
                     <settlement type="district">Torino</settlement>
@@ -59,9 +95,10 @@
                     <settlement type="district">Torino </settlement>
                 </placename>
             </death>
-            <note>Madre di Emanuele Artom e insegnante di matematica, divenne preside della Scuola Media intitolata al figlio.</note><!--Da completare-->
+            <note>Madre di Emanuele Artom e insegnante di matematica, divenne preside della Scuola Media intitolata al figlio.
+                Dopo la morte di Emanuele, riuscì a curare la corrispondenza, oggi in gran parte conservata nel fondo Emanuele Artom.
+            </note><!--Preferisci che metta così le note se troppo lunghe?-->
         </person>
-    
         <person xml:id="LP">
             <persName role="studente">
                 <forename>Luca</forename>
