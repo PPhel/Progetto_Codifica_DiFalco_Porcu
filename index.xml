@@ -5,7 +5,7 @@
     Filename:index.xml
     Authors: Filippo Di Falco and Luca Porcu
     Date: 2024-07
-    Last modified: 04/07/2024 16:21
+    Last modified: 06/07/2024
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- teiHeader viene usato per indicare metadati descrittivi-->
@@ -675,6 +675,9 @@
                     Benvenuto Terracini<pc type="period">.</pc>
                 </ab>
             </body>
+            <back>
+
+            </back>
      </text>
       
      <text xml:id="lettera2" xml:lang="it" hand="#BS" type="lettera"> <!-- Lettera 2 di Bruno Segre-->
@@ -772,6 +775,8 @@
                 intestata al nome di Emanuele Artom<pc type="period">.</pc> E' questo il
             </ab>
         </body>
+        <back>
+
+        </back>
     </text>
-    <!-- file back, codice da mettere nelle 2 lettere dopo il testo-->
 </TEI>
