@@ -20,26 +20,6 @@
             </death>
             <note>Emanuele Artom è stato un valoroso partigiano ebreo italiano. Diede vita a un circolo culturale ebraico a Torino. Morì dopo atroci torture perpetartegli durante i rastrellamenti di Torino del 1944.</note>
         </person>
-        <person xml:id="EA" role="brother">
-            <persName>
-                <forename>Ennio</forename>
-                <surname>Artom</surname>
-            </persName>
-            <birth>
-                <date when="1920-04-25">25 Aprile 1920</date>
-                <placename ref="TO">
-                    <settlement type="municipality">Torino</settlement>
-                    <settlement type="district">Torino</settlement>
-                </placename>
-            </birth>
-            <death>
-                <date when="1940-07-29">29 Luglio 1940</date>
-                <placename ref="CO">
-                    <settlement type="municipality">Couramyeur</settlement>
-                </placename>
-            </death>
-            <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
-
         </person>
         <person xml:id="ASA" role="teacher">
             <persName>
@@ -75,7 +55,7 @@
                 <placeName ref="SS">
                     <settlement type="city">Sassari</settlement>
                     <settlement type="district" key="SS">Sassari</settlement>
-                    <settlemente type="region" key="SAR">Sardegna</settlemente>
+                    <settlement type="region" key="SAR">Sardegna</settlement>
                     <country type="nation" key="IT">Italia</country>
                 </placeName>
             </birth>

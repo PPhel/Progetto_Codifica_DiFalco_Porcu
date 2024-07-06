@@ -690,6 +690,27 @@
                         </death>
                         <note>Linguista italiano, è l'autore della prima lettera, in cui parla della morte di Ennio Artom, avvenuta solo qualche mese prima della stesura della lettera.</note>
                     </person>
+                    <person xml:id="EA" role="brother">
+                        <persName>
+                            <forename>Ennio</forename>
+                            <surname>Artom</surname>
+                        </persName>
+                        <birth>
+                            <date when="1920-04-25">25 Aprile 1920</date>
+                            <placeName ref="TO">
+                                <settlement type="city">Torino</settlement>
+                                <settlement type="district">Torino</settlement>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1940-07-29">29 Luglio 1940</date>
+                            <placeName ref="CO">
+                                <settlement type="city">Courmayeur</settlement>
+                                <settlement type="region">Valle d'Aosta</settlement>
+                            </placeName>
+                        </death>
+                        <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
+                        </person>
                 </listPerson>
             </back>
      </text>
