@@ -676,7 +676,21 @@
                 </ab>
             </body>
             <back>
-
+                <listPerson>
+                    <person xml:id="BT" role="linguist">
+                        <persName>
+                            <forename>Benvenuto</forename>
+                            <surname>Terracini</surname>
+                        </persName>
+                        <birth>
+            
+                        </birth>
+                        <death>
+            
+                        </death>
+                        <note>Linguista italiano, è l'autore della prima lettera, in cui parla della morte di Ennio Artom, avvenuta solo qualche mese prima della stesura della lettera.</note>
+                    </person>
+                </listPerson>
             </back>
      </text>
       
@@ -776,7 +790,31 @@
             </ab>
         </body>
         <back>
-
+            <listPerson>
+                <person xml:id="BS" role="lawyer"><!-- avvocato di professione, ma si può cambiare-->
+                    <persName>
+                        <forename>Bruno</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <birth>
+                        <date when="1918-09-04">4 Settembre 1918</date>
+                        <placeName ref="TO">
+                            <settlement type="city">Torino</settlement>
+                            <settlement type="district">Torino</settlement>
+                            <settlement type="region">Piemonte</settlement>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2024-01-27">27 Gennaio 2024</date>
+                        <placeName ref="TO">
+                            <settlement type="city">Torino</settlement>
+                            <settlement type="district">Torino</settlement>
+                            <settlement type="region">Piemonte</settlement>
+                        </placeName>
+                    </death>
+                    <note>Bruno fu un noto avvocato italiano. Nella sua lettera, di cui noi abbiamo codificato unicamente la pagina iniziale, ricorda Emanuele Artom</note>
+                </person>
+            </listPerson>
         </back>
     </text>
 </TEI>
