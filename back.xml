@@ -142,10 +142,24 @@
         <place xml:id="TO">
             <placeName>Torino</placeName>
             <country type="nation" key="IT">Italia</country>
-            <desc></desc>
+            <desc>A Torino nacquero e vissero a lungo molti dei citati nelle due lettere.</desc>
+        </place>
+        <place xml:id="CO">
+            <placeName>Courmayeur</placeName>
+            <country type="nation" key="IT">Italia</country>
+            <desc>A Courmayeur perse la vita Ennio Artom, di rientro da un'escursione in montagna, il 29 Luglio 1940.</desc>
         </place>
     </listPlace>
 
+    
+    <listOrg>
+        <org xml:id="CAE" role=""><!-- Ruolo da rivedere-->
+            <orgName>Centro Assistenza Ebraica di Cuneo</orgName>
+            <desc>Centro di assistenza, attivo durante il secondo conflitto mondiale, per l'aiuto degli ebrei perseguitati.</desc>
+            <country type="nation" key="IT">Italia</country>
+        </org>
+
+    </listOrg>
     <!--<listOrg>
     </listOrg> 
 
