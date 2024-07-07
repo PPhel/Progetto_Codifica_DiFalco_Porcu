@@ -40,7 +40,7 @@
               <section class="row" id="lettera1">
                 <figure class="visualizzatorefoto">
                   <!-- Da rivedere come si fa -->
-                  <xsl:apply-templates select="(//tei:surface)[position() &lt;= 4]" />
+                  <xsl:apply-templates select="(//tei:surface)[position() &lt;= 5]" />
                 </figure>
                 <div id="paginelettera1">
                   <xsl:for-each select="//tei:ab[position() &lt;= 4]">
