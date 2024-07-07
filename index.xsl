@@ -35,18 +35,53 @@
                     <xsl:apply-templates select="//tei:sourceDesc"/>
                   </div>
             </section>
-            <section id="lettere"> <!-- visualizzazione delle due lettere -->
-                <h2>Lettera 1 - </h2>
-                <div id ="lettera1">
-
+            <section id="lettere">
+              <h2>Lettera 1</h2>
+              <section class="row" id="lettera1">
+                <figure class="visualizzatorefoto">
+                  <!-- Da rivedere come si fa -->
+                  <xsl:apply-templates select="(//tei:surface)[position() &lt;= 4]" />
+                </figure>
+                <div id="paginelettera1">
+                  <xsl:for-each select="//tei:ab[position() &lt;= 4]">
+                    <div id="pagina{position() + 1}" class="pagine">
+                      <h1>PAGINA <xsl:value-of select="@n" /></h1>
+                      <xsl:apply-templates select="." />
+                    </div>
+                  </xsl:for-each>
                 </div>
-                <div id="lettera2">
-
+                <a class="indietro">
+                  <i class="indietro1"></i>
+                </a>
+                <a class="avanti">
+                  <i class="avanti1"></i>
+                </a>
+              </section>
+              <h2>Lettera 2</h2>
+              <section class="row" id="lettera2">
+                <figure class="visualizzatorefoto" >
+                  <!-- da rivedere come si fa-->
+                  <xsl:apply-templates select="//tei:surface[position() >= last() - 1]" />
+                </figure>
+                <div id="paginelettera2">
+                  <xsl:for-each select="//tei:ab[position() >= last() - 1]">
+                    <div id="pagina{position() + 172}" class="pagine">
+                      <h1>PAGINA <xsl:value-of select="@n" /></h1>
+                      <xsl:apply-templates select="." />
+                    </div>
+                  </xsl:for-each>
                 </div>
+                <a class="indietro" title="Vai alla pagina precedente">
+                  <i class="indietro1"></i>
+                </a>
+                <a class="avanti" title="Vai alla pagina successiva">
+                  <i class="avanti1"></i>
+                </a>
+              </section>
             </section>
             <h2>Chi? - Le persone e le organizzazioni citate</h2>
             <section id="persone">
-              <xsl:for-each select="tei:person[not(@xml:id = 'AMDG' or @xml:id = 'LP' or @xml:id = '')]">
+              <xsl:for-each select="tei:person[not(@xml:id = 'AMDG' or @xml:id = 'LP' or @xml:id = 'FD')]">
                 <xsl:element name="li">
                   <span class="persona">
                     <b>
@@ -54,13 +89,9 @@
                       <xsl:text> </xsl:text>
                       <xsl:value-of select="tei:persName/tei:surname" />
                     </b>
-        
-                    <!-- Se non è presente nome e cognome stampa solo il nome aggiuntivo -->
                     <xsl:if test="not(tei:persName/tei:forename) and not(tei:persName/tei:surname)">
                       <b><xsl:value-of select="tei:persName/tei:addName" /></b>
                     </xsl:if>
-        
-                    <!-- Se è presente il nome e l'addName stampa l'addName fra parentesi -->
                     <xsl:if test="tei:persName/tei:forename and tei:persName/tei:addName">
                       (<xsl:value-of select="tei:persName/tei:addName" />)
                     </xsl:if>
