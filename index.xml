@@ -136,16 +136,13 @@
                     </physDesc>
                     <history>
                         <summary>
-
+                            Sono presenti due lettere. La seconda lettera, ai fini del progetto, è stata parzialmente codificata.
                         </summary>
                         <origin from="1940-02-06" to="1945-06-02">
                         <p> La prima lettera è stata scritta da <persName ref="#BT">Benvenuto Terracini</persName>, la seconda è stata scritta da<persName ref="BS">Bruno Segre</persName>il 2 Giugno 1945</p>
                         </origin>
-
                         <acquisition>
-                            
                             <p>Questa raccolta di lettere a cura di <persName ref="#ASA">Amalia Segre Artom</persName></p>
-
                         </acquisition>
                     </history>
                 </msDesc>
@@ -160,7 +157,7 @@
                     <p>Gli errori presenti sono stati codificati con il tag <gi>corr</gi></p>
                 </correction>
                 <normalization method="markup">
-                    <p> </p>
+                    <p>Le normalizzazioni e parole di uso non più comune ai nostri tempi sono state codificate con il tag <gi>orig</gi></p>
                 </normalization>
                 <punctuation marks="all" placement="internal">
                 </punctuation>
@@ -171,7 +168,7 @@
                 </quotation>
             </editorialDecl>
             <refsDecl>
-                <p></p>
+                <p>I riferimenti a persone e luoghi sono state inserite attraverso i tag <att>xml:id</att> e <att>ref</att></p>
             </refsDecl>
             </encodingDesc>
             <profileDesc>
@@ -193,10 +190,10 @@
                 <creation>
                     <listChange>
                         <change when="1940-12-10" who="#BT">
-                            Le pagine<ref target="#p1">1</ref>,<ref target="#p2">2</ref>, <ref target="#p3">3</ref>e <ref target="#p4">4</ref> sono state scritte il <date when="1940-12-06">6 Dicembre 1940</date>
+                            Le pagine<ref target="#p1">1</ref>,<ref target="#p2">2</ref>, <ref target="#p3">3</ref>e <ref target="#p4">4</ref>, relative alla prima lettera, sono state scritte il <date when="1940-12-06">6 Dicembre 1940</date>
                         </change>
                         <change when="1945-06-02" who="#BS">
-                            La pagina<ref target="#p5">5</ref>è stata scritta il <date when="1945-06-02">2 Giugno 1945</date>
+                            La pagina<ref target="#p5">5</ref>, relativa alla seconda lettera, è stata scritta il <date when="1945-06-02">2 Giugno 1945</date>
                         </change>
                     </listChange>
                 </creation>
@@ -211,6 +208,7 @@
                         <settlement>Torino</settlement>
                         <date when="1945-06-02">2 Giugno 1945</date>
                     </correspAction>
+                    <!-- nota: non si hanno i riferimenti ai destinatari, difficile da comprendere nelle due lettere-->
                 </correspDesc>
             </profileDesc>     
     </teiHeader>
