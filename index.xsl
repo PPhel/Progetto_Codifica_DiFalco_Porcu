@@ -52,6 +52,12 @@
             <section id="luoghi">
                 <xsl:apply-templates select="//tei:back/tei:listPlace"/>
             </section>
+            <h2>Varie informazioni sulle lettere</h2>
+            <section id="informazioni">
+              <p>Le lettere sono state prese dal portale archivistico online del <xsl:value-of select="//tei:publicationStmt/tei:publisher/tei:orgName"/></p>
+              <p>Tipo di licenza dei documenti: <xsl:value-of select="//tei:publicationStmt/tei:availability"/></p>
+              <p>Lingua delle lettere: <xsl:value-of select="//tei:textLang"/></p>
 
+            </section>
         </main>
       </body>
