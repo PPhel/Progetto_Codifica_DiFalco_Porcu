@@ -370,13 +370,13 @@
                     <lb xml:id="r2p1" facs="#p1r2" n="2" break="no"/>
                     L'onda dei ricordi si <orig>acqueta</orig> nei nostri cuori<!-- Acqueta termine letterario--><pc type="comma">,</pc>si addolcisce il
                     <!--  Riga 3 -->
-                    <lb xml:id="r3p1" facs="#p1r3" n="3" break="no"/>
+                    <lb xml:id="r3p1" facs="#p1r3" n="3" break="si"/>
                     pianto del babbo e della mamma -mi perdonino l'uno e l'altra se l'af=
                     <!--  Riga 4 -->
                     <lb xml:id="r4p1" facs="#p1r4" n="4" break="no"/>
                     fetto che portavo a quel loro figliolo mi fa tanto ardito da
                     <!--  Riga 5 -->
-                    <lb xml:id="r5p1" facs="#p1r5" n="5" break="no"/>
+                    <lb xml:id="r5p1" facs="#p1r5" n="5" break="si"/>
                     penetrare per un momento nel segreto del loro dolore -rimane negli a=
                     <!--  Riga 6 -->
                     <lb xml:id="r6p1" facs="#p1r6" n="6" break="yes"/>
@@ -402,7 +402,7 @@
                     <lb xml:id="r13p1" facs="#p1r13" n="13" break="yes"/>
                     Suo sguardo si chiuse alla grande ombra <pc type="period">.</pc>
                     <!--  Riga 14  -->
-                    <lb xml:id="r14p1" facs="#p1r14" n="14" break="no"/>
+                    <lb xml:id="r14p1" facs="#p1r14" n="14" break="yes"/>
                     Eppure è necessario che Lo ricordiamo qui <pc type="comma">,</pc> nel chiuso di queste pic=
                     <!--  Riga 15  -->
                     <lb xml:id="r15p1" facs="#p1r15" n="15" break="no"/>
@@ -414,7 +414,7 @@
                     <lb xml:id="r17p1" facs="#p1r17" n="17" break="no"/>
                     Questa bibliotechina fu inaugurata la sera di Chanucoah di diciotto
                     <!--  Riga 18  -->
-                    <lb xml:id="r18p1" facs="#p1r18" n="18" break="no"/>
+                    <lb xml:id="r18p1" facs="#p1r18" n="18" break="yes"/>
                     anni or sono <pc type="comma">,</pc> quando il piccolo Ennio -come ci disse la Signorina Treves-
                     <!--  Riga 19  -->
                     <lb xml:id="r19p1" facs="#p1r19" n="19" break="no"/>
@@ -426,7 +426,7 @@
                     <lb xml:id="r21p1" facs="#p1r21" n="21" break="no"/>
                     giovani ritrovassero nella storia dei nostri padri la ragione del loro
                     <!--  Riga 22  -->
-                    <lb xml:id="r22p1" facs="#p1r22" n="22" break="no"/>
+                    <lb xml:id="r22p1" facs="#p1r22" n="22" break="yes"/>
                     essere di Ebrei <pc type="comma">,</pc> della Università popolare ebraica <pc type="comma">,</pc> passò alla Associa=
                     <!--  Riga 23  -->
                     <lb xml:id="r23p1" facs="#p1r23" n="23" break="no"/>
@@ -453,7 +453,7 @@
                     <lb xml:id="r2p2" facs="#p2r2" n="2" break="yes"/>
                     vecchi di quelli che commemoravano Purim due o tre anni or sono"<pc type="period">.</pc>
                     <!--  Riga 3-->
-                    <lb xml:id="r3p2" facs="#p2r3" n="3" break="no"/>
+                    <lb xml:id="r3p2" facs="#p2r3" n="3" break="yes"/>
                     Poveri ragazzi! quando ripensiamo alla nostra gioventù serena<pc type="comma">,</pc> come fie=
                     <!-- Riga 4-->
                     <lb xml:id="r4p2" facs="#p2r4" n="4" break="no"/>
@@ -507,10 +507,10 @@
                     <lb xml:id="r20p2" facs="#p2r20" n="20" break="no"/>
                     Ora<pc type="comma">,</pc> in un primo tempo<pc type="comma">,</pc> chi di èiù adatto ad iniziare questo compito
                     <!-- Riga 21-->
-                    <lb xml:id="r21p2" facs="#p2r21" n="21" break="no"/>
+                    <lb xml:id="r21p2" facs="#p2r21" n="21" break="yes"/>
                     che un giovane il quale aveva ancora potuto formarsi alle scuole pub=
                     <!-- Riga 22-->
-                    <lb xml:id="r22p2" facs="#p2r22" n="22" break="no"/>
+                    <lb xml:id="r22p2" facs="#p2r22" n="22" break="yes"/>
                     bliche la cultura superiore indispensabile<pc type="comma">,</pc> e nel tempo stesso divi=
                     <!-- Riga 23-->
                     <lb xml:id="r23p2" facs="#p2r23" n="23" break="yes"/>
@@ -553,10 +553,10 @@
                     <lb xml:id="r4p3" facs="#p3r4" n="4" break="no"/>
                     formalismo quaso talmudico<pc type="comma">,</pc>talvolta pieno di un umorismo altrettanto
                     <!--  Riga 5  -->
-                    <lb xml:id="r5p3" facs="#p3r5" n="5" break="no"/>
+                    <lb xml:id="r5p3" facs="#p3r5" n="5" break="yes"/>
                     ebraico, sempre diritto al suo fine<pc type="comma">,</pc>sempre caldo di un sentimento in=
                     <!--  Riga 6  -->
-                    <lb xml:id="r6p3" facs="#p3r6" n="6" break="no"/>
+                    <lb xml:id="r6p3" facs="#p3r6" n="6" break="yes"/>
                     nato del giusto e del vero<pc type="period">.</pc>Virtù avite e -mi è caro di dirtelo/dartelo in que=
                     <!--  Riga 7  -->
                     <lb xml:id="r7p3" facs="#p3r7" n="7" break="no"/>
@@ -574,7 +574,7 @@
                     <lb xml:id="r11p3" facs="#p3r11" n="11" break="no"/>
                     si era volto per una vocazione connaturata addiritura allo spirito Suo<pc type="period">.</pc>
                     <!--  Riga 12  -->
-                    <lb xml:id="r12p3" facs="#p3r12" n="12" break="no"/>
+                    <lb xml:id="r12p3" facs="#p3r12" n="12" break="yes"/>
                     Da ricerche che sono qualche cosa di più di semplici esercitazioni sco=
                     <!--  Riga 13  -->
                     <lb xml:id="r13p3" facs="#p3r13" n="13" break="no"/>
@@ -589,13 +589,13 @@
                     <lb xml:id="r16p3" facs="#p3r16" n="16" break="no"/>
                     esperti<pc type="comma">,</pc>e si compiace dei problemi nitidamente delimitati e dominati
                     <!--  Riga 17  -->
-                    <lb xml:id="r17p3" facs="#p3r17" n="17" break="no"/>
+                    <lb xml:id="r17p3" facs="#p3r17" n="17" break="yes"/>
                     con signorile coltura<pc type="comma">,</pc>intuisce questa vita celino queste povere reli=
                     <!--  Riga 18  -->
                     <lb xml:id="r18p3" facs="#p3r18" n="18" break="no"/>
                     e quante promesse<pc type="comma">,</pc>e si augura che esse possano venire raccolte
                     <!--  Riga 19  -->
-                    <lb xml:id="r19p3" facs="#p3r19" n="19" break="no"/>
+                    <lb xml:id="r19p3" facs="#p3r19" n="19" break="yes"/>
                     e serbate non solo alla pietà dei congiunti<pc type="comma">,</pc>ma alla scienza glottolo=
                     <!--  Riga 20  -->
                     <lb xml:id="r20p3" facs="#p3r20" n="20" break="no"/>
