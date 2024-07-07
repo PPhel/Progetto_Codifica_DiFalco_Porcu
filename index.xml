@@ -27,32 +27,25 @@
                     <persName ref="#BS">Bruno Segre</persName>
                 </respStmt>
             </titleStmt>
-
-
             <!-- in editionStmt inseriamo tutte le informazioni sull'edizione del testo -->
             <editionStmt> <!--Da rivedere-->
                 <edition> Edizione digitale per l'esame di Codifica di Testi
                     <date when="2024-07">Luglio 2024</date>
                 </edition>
-                
                 <respStmt>
                     <resp>Progetto coordinato da:</resp>
                     <name ref="#AMDG">Angelo Mario del Grosso</name>
                 </respStmt>
-
                 <respStmt>
                     <resp>Codifica e trascrizione <orgName type="acronym">TEI </orgName> P5 a cura di:</resp>
                     <name ref="#FD">Filippo Di Falco</name>
                     <name ref="#LP">Luca Porcu</name>
                 </respStmt>
-                
             </editionStmt>
-
             <extent>
                 <measure unit="pages" quantity="4">Le pagine codificate della prima lettera sono <num>4</num></measure>
                 <measure unit="pages" quantity="1">Le pagine codificate della seconda lettera sono <num>1</num></measure>
             </extent>
-
             <publicationStmt>
                 <publisher>
                     <orgName full="yes" ref="#UNIPI">Università di Pisa</orgName>
@@ -64,9 +57,8 @@
                     <settlement>Pisa</settlement>
                     <country>Italy</country>
                 </address>
-                <availability status="free"><p>Opera ad accesso libero</p></availability>
+                <availability status="free"><p>Da vedere</p></availability>
             </publicationStmt>
-
             <!-- sourceDesc viene utilizzato per informazioni riguardante la fonte originale -->
             <sourceDesc>
                 <bibl>
@@ -86,10 +78,9 @@
                     </distributor>
                     <pubPlace ref="#MI">Milano</pubPlace>
                     <availability status="free">
-                        <p>Opera a libero accesso</p>
+                        <p>Opera a libero accesso, soggetta a licenza Creative Commons 4.0. Tutti i diritti sono del CDEC, nessuna modifica è stata fatta nei file originali</p>
                     </availability>
                 </bibl>
-
                 <msDesc>
                     <msIdentifier>
                         <country key="IT" type="nation">Italia</country>
@@ -101,24 +92,19 @@
                             <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName>
                         </repository>
                         <collection>Fondo Emanuele Artom</collection>
-                        <idno> -Busta 1, fascicolo 1</idno><!-- Aggiunto grazie a una ricerca sul web, va rivisto-->
+                        <idno>Busta 1, fascicolo 1, cc. 98</idno>
                     </msIdentifier>
-
                     <msContents>
                         <msItem>
                             <title type="main">Lettere della raccolta di <persName ref="#ASA">Amalia Segre Artom</persName></title>
-
                             <author><persName ref="#BT">Bruno Terracini</persName></author>
                             <author><persName ref="#BS">Bruno Segre</persName></author>
                             <docDate>
                                 <date from="1940-12-06" to="1945-06-02">6 Dicembre 1940-2 Giugno 1945</date>
                             </docDate>
                             <textLang mainLang="it">Italiano</textLang>
-                            
-                            
                         </msItem>
                     </msContents>
-
                     <physDesc>
                         <objectDesc form="manoscript">
                             <supportDesc material="paper" source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000081/corrispondenza-amalia-segre-artom.html">
@@ -128,8 +114,6 @@
                                         Il manoscritto è composto da<num>140 pagine</num>
                                     </measure>
                                 </extent>
-
-                                
                                 <condition>
                                     <p> Il manoscritto si presenta in buone condizioni generali, qualche pezzo di carta stropicciato, ma condizioni buone, anche sulle lettere più anziane</p>
                                 </condition>
@@ -145,14 +129,11 @@
                            La seconda lettera, scritta da <persName ref="#BS">Bruno Segre</persName>, è interamente scritta a mano con penna nera in corsivo.
                         </handNote>
                         </handDesc>
-
                         <typeDesc>
                             <p> La prima lettera è scritta interamente con macchina da scrivere, sono presenti delle correzioni a penna sicuramente fatte durante una lettura post-scrittura</p>
                             <p> La seconda lettera è scritta interamente a penna, in alcune parti vi sono delle correzioni che rendono difficile la compresione di ciò che vi scritto</p>
                         </typeDesc>
-
                     </physDesc>
-
                     <history>
                         <summary>
 
@@ -176,7 +157,7 @@
             </projectDesc>
             <editorialDecl><!-- Dobbiamo completare questa cosa!-->
                 <correction method="markup" status="high">
-                    <p> gli errori</p>
+                    <p>Gli errori presenti sono stati codificati con il tag <gi>corr</gi></p>
                 </correction>
                 <normalization method="markup">
                     <p> </p>
