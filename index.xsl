@@ -43,11 +43,15 @@
 
                 </div>
             </section>
+            <h2>Chi? - Le persone e le organizzazioni citate</h2>
             <section id="persone">
                 <xsl:apply-templates select="//tei:back/tei:listPerson"/>
+                <xsl:apply-templates select="//tei:back/tei:listOrg"/>
             </section>
+            <h2>Dove? - I luoghi citati</h2>
             <section id="luoghi">
                 <xsl:apply-templates select="//tei:back/tei:listPlace"/>
             </section>
+
         </main>
       </body>
