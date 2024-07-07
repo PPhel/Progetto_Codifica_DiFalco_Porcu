@@ -9,7 +9,8 @@
         <title>
           <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/> - <xsl:value-of select="//tei:titleStmt/tei:title[@type='sub']"/>
         </title>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="style1.css" rel="stylesheet" type="text/css"/> -->
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
       </head>
       <body>
