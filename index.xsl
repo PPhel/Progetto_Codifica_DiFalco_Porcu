@@ -95,7 +95,16 @@
                     <xsl:if test="tei:persName/tei:forename and tei:persName/tei:addName">
                       (<xsl:value-of select="tei:persName/tei:addName" />)
                     </xsl:if>
+                  </span>
+                  </xsl:element>
+                  </xsl:for-each>
             </section>
+            <nav id="pulsanti">
+              <button id="personeOrg">Persone e organizzazioni</button>
+              <button id="luoghi">Luoghi</button>
+              <button id="erroriCorr">Errori e correzioni</button>
+              <button id="altro">Altro</button> <!-- quello che si vuole -->
+            </nav>
             <h2>Dove? - I luoghi citati</h2>
             <section id="luoghi">
                 <xsl:apply-templates select="//tei:back/tei:listPlace"/>
@@ -119,8 +128,9 @@
             </section>
         </main>
       </body>
-  <!-- immagini delle lettere -->
+    </html>
   </xsl:template>
+  <!-- immagini delle lettere -->
   <xsl:template match="tei:lb">
     <xsl:if test="@n != 1">
       <br />
@@ -162,3 +172,32 @@
   </xsl:template>
   <!-- pulsanti...da vedere-->
   <!-- footer...dove mettere noi e il prof e altro da vedere-->
+     <!-- Footer -->
+  <xsl:template match="tei:editionStmt">
+    <h2>Riferimenti</h2>
+    <h3>
+      <xsl:value-of select="tei:edition" />
+    </h3>
+    <xsl:for-each select="tei:respStmt">
+      <div>
+        <b>
+          <xsl:value-of select="tei:resp" />
+        </b>
+        <xsl:for-each select="tei:name">
+          <p>
+            <xsl:text> </xsl:text>
+            <xsl:choose>
+              <xsl:when test="position() = last()">
+                <xsl:value-of select="." />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat(., ' e ')" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </p>
+        </xsl:for-each>
+      </div>
+    </xsl:for-each>
+  </xsl:template>
+
+</xsl:stylesheet>
