@@ -40,7 +40,7 @@
               <section class="row" id="lettera1">
                 <figure class="visualizzatorefoto">
                   <!-- Da rivedere come si fa -->
-                  <xsl:apply-templates select="(//tei:surface)[position() &lt;= 5]" />
+                  <xsl:apply-templates select="(//tei:surface)[position() &lt;= 4]" />
                 </figure>
                 <div id="paginelettera1">
                   <xsl:for-each select="//tei:ab[position() &lt;= 4]">
@@ -79,6 +79,12 @@
                 </a>
               </section>
             </section>
+            <nav id="pulsanti">
+              <button id="personeOrg">Persone e organizzazioni</button>
+              <button id="luoghi">Luoghi</button>
+              <button id="erroriCorr">Errori e correzioni</button>
+              <button id="altro">Altro</button> <!-- quello che si vuole -->
+            </nav>
             <h2>Chi? - Le persone e le organizzazioni citate</h2>
             <section id="persone">
               <xsl:for-each select="tei:person[not(@xml:id = 'AMDG' or @xml:id = 'LP' or @xml:id = 'FD')]">
@@ -99,12 +105,6 @@
                   </xsl:element>
                   </xsl:for-each>
             </section>
-            <nav id="pulsanti">
-              <button id="personeOrg">Persone e organizzazioni</button>
-              <button id="luoghi">Luoghi</button>
-              <button id="erroriCorr">Errori e correzioni</button>
-              <button id="altro">Altro</button> <!-- quello che si vuole -->
-            </nav>
             <h2>Dove? - I luoghi citati</h2>
             <section id="luoghi">
                 <xsl:apply-templates select="//tei:back/tei:listPlace"/>
