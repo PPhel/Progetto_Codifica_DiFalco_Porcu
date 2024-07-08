@@ -217,7 +217,7 @@
      <facsimile>
         <!-- Pagina 1-->
         <surface xml:id="s1" n="1">
-            <graphic url='1.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/1.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p1r1" ulx="358" uly="134" lrx="585" lry="161" />
             <zone xml:id="p1r2" ulx="125" uly="171" lrx="709" lry="198" />
             <zone xml:id="p1r3" ulx="92" uly="209" lrx="721" lry="231" />
@@ -247,7 +247,7 @@
         </surface>
         <!-- Pagina 2-->
         <surface xml:id="s2" n="2">
-            <graphic url='2.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/2.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p2r1" ulx="120" uly="112" lrx="743" lry="140" />
             <zone xml:id="p2r2" ulx="120" uly="144" lrx="717" lry="166" />
             <zone xml:id="p2r3" ulx="122" uly="169" lrx="762" lry="194" />
@@ -280,7 +280,7 @@
         </surface>
         <!-- Pagina 3-->
         <surface xml:id="s3" n="3">
-            <graphic url='3.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/3.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p3r1" ulx="102" uly="112" lrx="733" lry="130" />
             <zone xml:id="p3r2" ulx="108" uly="146" lrx="731" lry="160" />
             <zone xml:id="p3r3" ulx="108" uly="172" lrx="729" lry="187" />
@@ -312,7 +312,7 @@
         </surface>
         <!-- Pagina 4-->
         <surface xml:id="s4" n="4">
-            <graphic url='4.jpg' width='806.4px' height='1024.4px' />
+            <graphic url='img/4.jpg' width='806.4px' height='1024.4px' />
             <zone xml:id="p4r1" ulx="98" uly="112" lrx="728" lry="144" />
             <zone xml:id="p4r2" ulx="98" uly="153" lrx="729" lry="176" />
             <zone xml:id="p4r3" ulx="99" uly="181" lrx="358" lry="201" />
@@ -323,7 +323,7 @@
         </surface>
         <!-- Pagina 5-->
         <surface xml:id="s5" n="5">
-            <graphic url='5.jpg' width='746.4px' height='1024.4px' />
+            <graphic url='img/5.jpg' width='746.4px' height='1024.4px' />
             <zone xml:id="p5r1" ulx="56" uly="55" lrx="302" lry="80" />
             <zone xml:id="p5r2" ulx="447" uly="67" lrx="696" lry="143" />
             <zone xml:id="p5r3" ulx="154" uly="86" lrx="205" lry="97" />
