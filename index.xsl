@@ -15,7 +15,7 @@
       </head>
       <body>
         <header>
-
+          <!-- omesso -->
         </header>
         <section id="title"> <!-- titolo -->
             <div>
