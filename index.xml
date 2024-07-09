@@ -681,6 +681,32 @@
                         </death>
                         <note>Linguista italiano, è l'autore della prima lettera, in cui parla della morte di Ennio Artom, avvenuta solo qualche mese prima della stesura della lettera.</note>
                     </person>
+                    <!--Non siamo sicuri sia effettivamente Benvenuta Treves la "signorina Treves" citata, ma è rimasta "signorina Treves" a vita-->
+                    <person xml:id="BTR" role="teacher">
+                        <persName>
+                            <forename>Benvenuta</forename>
+                            <surname>Treves</surname>
+                        </persName>
+                        <birth>
+                            <date when="1885-07-27">27 Luglio 1885</date>
+                            <placeName ref="TO">
+                                <settlement type="city">Torino</settlement>
+                                <settlement type="district">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country type="nation">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1974-04-30">30 Aprile 1974</date>
+                            <placeName ref="TO">
+                                <settlement type="city">Novara</settlement>
+                                <settlement type="district">Novara</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country type="nation">Italia</country>
+                            </placeName>
+                        </death>
+                        <note>Insegnante di Lettere di origine ebraica, ebbe alcuni scambi di lettere con Amalia Segre Artom anche dopo la Seconda Guerra Mondiale.</note>
+                    </person>
                     <person xml:id="EA" role="brother">
                         <persName>
                             <forename>Ennio</forename>
@@ -707,6 +733,29 @@
                         <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
                         </person>
                 </listPerson>
+                <listPlace>
+                    <place xml:id="PED">
+                        <placeName type="region">Piemonte</placeName>
+                        <country type="nation" key="IT">Italia</country>
+                        <desc>Torino è capoluogo regionale del Piemonte</desc>
+                    </place>
+                    <place xml:id="TO">
+                        <placeName>Torino</placeName>
+                        <settlement type="city">Torino</settlement>
+                        <settlement type="district">Torino</settlement>
+                        <settlement type="region">Piemonte</settlement>
+                        <country type="nation" key="IT">Italia</country>
+                        <desc>A Torino nacquero e vissero a lungo molti dei citati nelle due lettere.</desc>
+                    </place>
+                    <place xml:id="CO">
+                        <placeName>Morgex</placeName>
+                        <settlement type="city">Morgex</settlement>
+                        <!-- district omesso perchè in Valle d'Aosta non ci sono le province-->
+                        <settlement type="region">Valle d'Aosta</settlement>
+                        <country type="nation" key="IT">Italia</country>
+                        <desc>Morgex è un comune della Valle d'Aosta, nella lettera si parla di alcune giornate dell'infanzia di Ennio trascorse presso questo comune.</desc>
+                    </place>
+                </listPlace>
             </back>
      </text>
       
