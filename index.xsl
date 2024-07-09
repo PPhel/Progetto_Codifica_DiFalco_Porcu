@@ -81,7 +81,7 @@
             </nav>
             <h2>Chi? - Le persone e le organizzazioni citate</h2>
             <section id="persone">
-              <xsl:for-each select="tei:person[not(@xml:id = 'AMDG' or @xml:id = 'LP' or @xml:id = 'FD')]">
+              <xsl:for-each select="tei:person">
                 <xsl:element name="li">
                   <span class="persona">
                     <b>
@@ -167,30 +167,4 @@
   <!-- pulsanti...da vedere-->
   <!-- footer...dove mettere noi e il prof e altro da vedere-->
      <!-- Footer -->
-  <xsl:template match="tei:editionStmt">
-    <h2>Riferimenti</h2>
-    <h3>
-      <xsl:value-of select="tei:edition" />
-    </h3>
-    <xsl:for-each select="tei:respStmt">
-      <div>
-        <b>
-          <xsl:value-of select="tei:resp" />
-        </b>
-        <xsl:for-each select="tei:name">
-          <p>
-            <xsl:text> </xsl:text>
-            <xsl:choose>
-              <xsl:when test="position() = last()">
-                <xsl:value-of select="." />
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="concat(., ' e ')" />
-              </xsl:otherwise>
-            </xsl:choose>
-          </p>
-        </xsl:for-each>
-      </div>
-    </xsl:for-each>
-  </xsl:template>
 </xsl:stylesheet>
