@@ -756,6 +756,12 @@
                         <desc>Morgex è un comune della Valle d'Aosta, nella lettera si parla di alcune giornate dell'infanzia di Ennio trascorse presso questo comune.</desc>
                     </place>
                 </listPlace>
+                <listOrg>
+                    <org xml:id="UniTo" role="university">
+                        <orgName>Università Popolare di Torino</orgName>
+                        <desc>Università Popolare a cui si iscrisse Ennio</desc>
+                    </org>
+                </listOrg>
             </back>
      </text>
       
@@ -856,7 +862,7 @@
         </body>
         <back>
             <listPerson>
-                <person xml:id="BS" role="lawyer"><!-- avvocato di professione, ma si può cambiare-->
+                <person xml:id="BS" role="lawyer">
                     <persName>
                         <forename>Bruno</forename>
                         <surname>Segre</surname>
