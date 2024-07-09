@@ -694,7 +694,7 @@
                             <date when="1940-07-29">29 Luglio 1940</date>
                             <placeName ref="CO">
                                 <settlement type="city">Courmayeur</settlement>
-                                <settlement type="district">Aosta</settlement>
+                                <!-- district assente perchè formalmente in Valle d'Aosta non esistono le province-->
                                 <settlement type="region">Valle d'Aosta</settlement>
                                 <country type="nation">Italia</country>
                             </placeName>
