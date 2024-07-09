@@ -918,6 +918,30 @@
                     </death>
                     <note>Bruno fu un noto avvocato italiano. Nella sua lettera, di cui noi abbiamo codificato unicamente la pagina iniziale, ricorda Emanuele Artom</note>
                 </person>
+                <person xml:id="EMA" role="partisan">
+                    <persName>
+                        <forename>Emanuele</forename>
+                        <surname>Artom</surname>
+                    </persName>
+                    <birth> 
+                        <date when="1916-06-23">23 Giugno 1916</date>
+                        <placeName ref="AO">
+                            <settlement type="city">Aosta</settlement>
+                            <settlement type="region">Valle d'Aosta</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1944-04-07">7 Aprile 1944</date>
+                        <placeName ref="TO">
+                            <settlement type="city">Torino</settlement>
+                            <settlement type="district">Torino</settlement>
+                            <settlement type="region">Piemonte</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                    </death>
+                    <note>Emanuele Artom, valoroso partigiano ebreo, è colui a cui è dedicato il fondo in cui sono conservate queste lettere. Morì, dopo i rastrellamenti nazisti di Torino, a soli 28 anni.</note>
+                </person>
                 <person xml:id="FSLB" role="teacher">
                     <persName>
                         <forename>Francesco Singleton</forename>
