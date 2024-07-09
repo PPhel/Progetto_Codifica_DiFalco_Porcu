@@ -43,7 +43,7 @@
                   <xsl:apply-templates select="(//tei:surface)[position() &lt;= 4]" />
                 </figure>
                 <div id="paginelettera1">
-                  <xsl:for-each select="//tei:ab[position() &lt;= 4]">
+                  <xsl:for-each select="//tei:ab[position() &lt;= 1]">
                     <div id="pagina{position() + 1}" class="pagine">
                       <h1>PAGINA <xsl:value-of select="@n" /></h1>
                       <xsl:apply-templates select="." />
@@ -64,7 +64,7 @@
                   <xsl:apply-templates select="//tei:surface[position() >= last() - 1]" />
                 </figure>
                 <div id="paginelettera2">
-                  <xsl:for-each select="//tei:ab[position() >= last() - 1]">
+                  <xsl:for-each select="//tei:ab[position() >= last() + 1]">
                     <div id="pagina{position() + 172}" class="pagine">
                       <h1>PAGINA <xsl:value-of select="@n" /></h1>
                       <xsl:apply-templates select="." />
