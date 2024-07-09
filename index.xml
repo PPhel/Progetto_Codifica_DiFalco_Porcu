@@ -669,10 +669,15 @@
                                 <settlement type="region">Piemonte</settlement>
                                 <country type="nation">Italia</country>
                             </placeName>
-            
                         </birth>
                         <death>
-            
+                            <date when="1968-04-30">30 Aprile 1968</date>
+                            <placeName ref="TO">
+                                <settlement type="city">Torino</settlement>
+                                <settlement type="district">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country type="nation">Italia</country>
+                            </placeName>
                         </death>
                         <note>Linguista italiano, è l'autore della prima lettera, in cui parla della morte di Ennio Artom, avvenuta solo qualche mese prima della stesura della lettera.</note>
                     </person>
@@ -694,7 +699,7 @@
                             <date when="1940-07-29">29 Luglio 1940</date>
                             <placeName ref="CO">
                                 <settlement type="city">Courmayeur</settlement>
-                                <!-- district assente perchè formalmente in Valle d'Aosta non esistono le province-->
+                                <!-- district omesso perchè formalmente in Valle d'Aosta non esistono le province-->
                                 <settlement type="region">Valle d'Aosta</settlement>
                                 <country type="nation">Italia</country>
                             </placeName>
