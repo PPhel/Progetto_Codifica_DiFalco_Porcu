@@ -181,11 +181,10 @@
                     <derivation type="original"/>
                     <domain type="education"/>
                     <factuality type="fact"/>
-                    <!-- Interaction da rivedere-->
-                    <interaction></interaction>
+                    <interaction type="partial" active="singular" passive="singular"></interaction>
                     <preparedness type="none"/>
-                    <!-- Purpose da rivedere-->
-                    <purpose></purpose>
+                    <purpose type="personal"></purpose>
+                    <!--purpose di tipo persona, in quanto si descrivono due lettere di tipo personale-->
                 </textDesc>
                 <creation>
                     <listChange>
@@ -707,7 +706,7 @@
                         </death>
                         <note>Madre di Emanuele Artom e insegnante di matematica, divenne preside della Scuola Media intitolata al figlio.
                             Dopo la morte di Emanuele, riuscì a curare la corrispondenza, oggi in gran parte conservata nel fondo a lui dedicato.
-                        </note><!--Preferisci che metta così le note se troppo lunghe?-->
+                        </note>
                     </person>
                     <!--Non siamo sicuri sia effettivamente Benvenuta Treves la "signorina Treves" citata, ma è rimasta "signorina Treves" a vita-->
                     <person xml:id="BTR" role="teacher">
@@ -760,15 +759,13 @@
                         </death>
                         <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
                         </person>
-                        <person>
-                            
-                        </person>
                 </listPerson>
                 <listPlace>
                     <place xml:id="PED">
-                        <placeName type="region">Piemonte</placeName>
+                        <placeName>Piemonte</placeName>
+                        <settlement type="region">Piemonte</settlement>
                         <country type="nation" key="IT">Italia</country>
-                        <desc>Torino è capoluogo regionale del Piemonte</desc>
+                        <desc>Il Piemonte è la regione d'Italia in cui si trova Torino</desc>
                     </place>
                     <place xml:id="TO">
                         <placeName>Torino</placeName>
@@ -776,7 +773,7 @@
                         <settlement type="district">Torino</settlement>
                         <settlement type="region">Piemonte</settlement>
                         <country type="nation" key="IT">Italia</country>
-                        <desc>A Torino nacquero e vissero a lungo molti dei citati nelle due lettere.</desc>
+                        <desc>A Torino nacquero e vissero molti dei citati nelle due lettere. La prima lettera è stata scritta a Torino.</desc>
                     </place>
                     <place xml:id="MO">
                         <placeName>Morgex</placeName>
@@ -785,6 +782,14 @@
                         <settlement type="region">Valle d'Aosta</settlement>
                         <country type="nation" key="IT">Italia</country>
                         <desc>Morgex è un comune della Valle d'Aosta, nella lettera si parla di alcune giornate dell'infanzia di Ennio trascorse presso questo comune.</desc>
+                    </place>
+                    <place xml:id="CO">
+                        <placeName>Courmayeur</placeName>
+                        <settlement type="city">Courmayeur</settlement>
+                        <!-- District omesso in quanto in Valle d'Aosta non esistono le province-->
+                        <settlement type="region">Valle d'Aosta</settlement>
+                        <country type="nation" key="IT">Italia</country>
+                        <desc>Courmayeur è un comune della Valle d'Aosta in cui perse la vita Ennio Artom, di rientro da un'escursione in montagna, il 29 Luglio 1940.</desc>
                     </place>
                 </listPlace>
                 <listOrg>
@@ -969,14 +974,6 @@
                 </person>
                 </listPerson>
             <listPlace>
-                <place xml:id="CO">
-                    <placeName>Courmayeur</placeName>
-                    <settlement type="city">Courmayeur</settlement>
-                    <!-- District omesso in quanto in Valle d'Aosta non esistono le province-->
-                    <settlement type="region">Valle d'Aosta</settlement>
-                    <country type="nation" key="IT">Italia</country>
-                    <desc>Courmayeur è un comune della Valle d'Aosta in cui perse la vita Ennio Artom, di rientro da un'escursione in montagna, il 29 Luglio 1940.</desc>
-                </place>
                 <place xml:id="CU">
                     <placeName>Cuneo</placeName>
                     <settlement type="city">Cuneo</settlement>
