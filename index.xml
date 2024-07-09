@@ -662,6 +662,13 @@
                             <surname>Terracini</surname>
                         </persName>
                         <birth>
+                            <date when="1886-08-12">12 Agosto 1886</date>
+                            <placeName ref="TO">
+                                <settlement type="city">Torino</settlement>
+                                <settlement type="district">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country type="nation">Italia</country>
+                            </placeName>
             
                         </birth>
                         <death>
@@ -679,13 +686,17 @@
                             <placeName ref="TO">
                                 <settlement type="city">Torino</settlement>
                                 <settlement type="district">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country type="nation">Italia</country>
                             </placeName>
                         </birth>
                         <death>
                             <date when="1940-07-29">29 Luglio 1940</date>
                             <placeName ref="CO">
                                 <settlement type="city">Courmayeur</settlement>
+                                <settlement type="district">Aosta</settlement>
                                 <settlement type="region">Valle d'Aosta</settlement>
+                                <country type="nation">Italia</country>
                             </placeName>
                         </death>
                         <note>Figlio di Amalia Segre Artom e fratello di Emilio, morì in un incidente presso Courmayer. Assieme al fratello costituì un circolo intellettuale di giovani ebrei.</note>
