@@ -965,7 +965,11 @@
             <listOrg>
                 <org xml:id="CAE" role="organisation">
                     <orgName>Centro di assistenza ebraica-Sede di Cuneo</orgName>
-                    <desc>Centro di assistenza ai fedeli ebraici attivo durante la Seconda Guerra Mondiale.</desc>
+                    <desc>Centro di assistenza ai fedeli ebraici di Cuneo attivo durante la Seconda Guerra Mondiale.</desc>
+                </org>
+                <org xml:id="MFO" role="movement">
+                    <orgName>Movimento Federalista Europeo</orgName>
+                    <desc>Movimento politico nato nel corso del Secondo Conflitto Mondiale e tutt'ora esistente, viene citato nelle ultime righe della lettera.</desc>
                 </org>
             </listOrg>
 
