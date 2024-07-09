@@ -30,11 +30,6 @@
               </div>
         </section>
         <main>
-            <section id="description">  <!-- descrizione-->
-                <div class="row">
-                    <xsl:apply-templates select="//tei:sourceDesc"/>
-                  </div>
-            </section>
             <section id="lettere">
               <h2>Lettera 1</h2>
               <section class="row" id="lettera1">
@@ -43,8 +38,8 @@
                   <xsl:apply-templates select="(//tei:surface)[position() &lt;= 4]" />
                 </figure>
                 <div id="paginelettera1">
-                  <xsl:for-each select="//tei:ab[position() &lt;= 1]">
-                    <div id="pagina{position() + 1}" class="pagine">
+                  <xsl:for-each select="//tei:ab[position() &lt;= 4]">
+                    <div id="pagina{position() + 1}" class="paginetot1">
                       <h1>PAGINA <xsl:value-of select="@n" /></h1>
                       <xsl:apply-templates select="." />
                     </div>
@@ -60,12 +55,11 @@
               <h2>Lettera 2</h2>
               <section class="row" id="lettera2">
                 <figure class="visualizzatorefoto" >
-                  <!-- da rivedere come si fa-->
-                  <xsl:apply-templates select="//tei:surface[position() >= last() - 1]" />
+                  <xsl:apply-templates select="//tei:surface[position() = 5]" />
                 </figure>
                 <div id="paginelettera2">
-                  <xsl:for-each select="//tei:ab[position() >= last() + 1]">
-                    <div id="pagina{position() + 172}" class="pagine">
+                  <xsl:for-each select="//tei:ab[position() = 5]">
+                    <div id="pagina{position() + 172}" class="paginetot2">
                       <h1>PAGINA <xsl:value-of select="@n" /></h1>
                       <xsl:apply-templates select="." />
                     </div>
