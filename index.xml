@@ -802,6 +802,7 @@
                             <settlement type="city">Torino</settlement>
                             <settlement type="district">Torino</settlement>
                             <settlement type="region">Piemonte</settlement>
+                            <country type="nation">Italia</country>
                         </placeName>
                     </birth>
                     <death>
@@ -810,6 +811,7 @@
                             <settlement type="city">Torino</settlement>
                             <settlement type="district">Torino</settlement>
                             <settlement type="region">Piemonte</settlement>
+                            <country type="nation">Italia</country>
                         </placeName>
                     </death>
                     <note>Bruno fu un noto avvocato italiano. Nella sua lettera, di cui noi abbiamo codificato unicamente la pagina iniziale, ricorda Emanuele Artom</note>
