@@ -799,9 +799,9 @@
                     </org>
                 </listOrg>
             </back>
-     </text>
+    </text>
       
-     <text xml:id="lettera2" xml:lang="it" hand="#BS" type="lettera"> <!-- Lettera 2 di Bruno Segre-->
+    <text xml:id="lettera2" xml:lang="it" hand="#BS" type="lettera"> <!-- Lettera 2 di Bruno Segre-->
         <body>
             <!-- Pagina 5-->
             <ab type="page" xml:lang="it" n="3">
