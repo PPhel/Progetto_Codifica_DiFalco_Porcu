@@ -15,8 +15,8 @@
         <title>
           <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/>
         </title>
-        <link href="index.css" rel="stylesheet" type="text/css" />
-        <script src="index.js"></script>
+        <link href="lettere.css" rel="stylesheet" type="text/css" />
+        <script src="lettere.js"></script>
       </head>
       <body>
         <header>
