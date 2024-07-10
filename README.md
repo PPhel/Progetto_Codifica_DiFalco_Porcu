@@ -3,3 +3,6 @@ Repository del progetto di Codofica di Testi, AA 22/23, di Filippo Di Falco e Lu
 
 Comando Saxon
 java -jar saxon/saxon-he-10.3.jar -s:lettere.xml -xsl:lettere.xsl -o:lettere.html
+
+Comando Xerces
+java -cp "xerces/*" dom.Counter -v lettere.xml
