@@ -27,7 +27,8 @@ main {
     background-color: #33ccff;
     color:#fff;
     font-size: 20px;
-    text-align: left;
+    line-height: 1.4;
+    word-spacing: 0.1 em;
 }
 
 h1, h2, h3 {
@@ -45,12 +46,10 @@ main h1, h2, h3 {
 }
 
 img {
-    width: 300px; /* Larghezza fissa */
-    height: auto; /* Altezza proporzionale */
+    width: 600px;
+    height: auto;
     max-width: 100%;
-    float: left;
-    margin-right: 10px;
-    border: 5px solid #33ccff; /* Bordo sottile */
+    border: 5px solid #33ccff; 
 }
 
 
