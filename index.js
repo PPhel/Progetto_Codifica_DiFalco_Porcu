@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Funzione per scrollare alla sezione delle correzioni
     document.getElementById('correzioni').addEventListener('click', function() {
-      document.getElementById('corr').style.color = "red";
+        const correzioni = document.getElementsByClassName("corr");
+        for(i=0;i<correzioni.length;i++){
+            correzioni[i].style.backgroundColor = "red";
+        }
     });
   
     // Funzione per scrollare alla sezione delle parole particolari
