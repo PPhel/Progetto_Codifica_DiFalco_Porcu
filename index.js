@@ -7,23 +7,45 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
   
-    // Funzione per scrollare alla sezione delle parole particolari
     document.getElementById('paroleparticolari').addEventListener('click', function() {
-      document.getElementById('orig').scrollIntoView({ behavior: 'smooth' });
+        const parpart = document.getElementsByClassName("orig");
+        for(i=0;i<parpart.length;i++){
+            parpart[i].style.backgroundColor = "green";
+        }
     });
   
-    // Funzione per scrollare alla sezione delle persone
     document.getElementById('persone').addEventListener('click', function() {
-      document.getElementBy('persName').scrollIntoView({ behavior: 'smooth' });
+        const persname = document.getElementsByClassName("persName");
+        for(i=0;i<persname.length;i++){
+            persname[i].style.backgroundColor = "brown";
+        }
     });
   
-    // Funzione per scrollare alla sezione dei luoghi
     document.getElementById('luoghi').addEventListener('click', function() {
-      document.getElementById('placeName').scrollIntoView({ behavior: 'smooth' });
+        const placename = document.getElementsByClassName("placeName");
+        for(i=0;i<placename.length;i++){
+            placename[i].style.backgroundColor = "pink";
+        }
     });
   
-    // Funzione per scrollare alla sezione delle organizzazioni
     document.getElementById('org').addEventListener('click', function() {
-      document.getElementById('orgName').scrollIntoView({ behavior: 'smooth' });
+        const orgname = document.getElementsByClassName("orgName");
+        for(i=0;i<orgname.length;i++){
+            orgname[i].style.backgroundColor = "grey";
+        }
+    });
+
+    document.getElementById('abbreviazioni').addEventListener('click', function() {
+        const abbr = document.getElementsByClassName("abbr");
+        for(i=0;i<abbr.length;i++){
+            abbr[i].style.backgroundColor = "purple";
+        }
+    });
+
+    document.getElementById('punteggiatura').addEventListener('click', function() {
+        const pc = document.getElementsByClassName("pc");
+        for(i=0;i<pc.length;i++){
+            pc[i].style.backgroundColor = "fuchsia";
+        }
     });
   });

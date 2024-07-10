@@ -69,6 +69,8 @@
           </section>
           <nav id="pulsantitesto">
             <button id="correzioni" type="button">Correzioni</button>
+            <button id="abbreviazioni" type="button">Abbreviazioni</button>
+            <button id="punteggiatura" type="button">Punteggiatura</button>
             <button id="paroleparticolari" type="button">Parole Particolari</button>
             <button id="persone" type="button">Persone</button>
             <button id="luoghi" type="button">Luoghi</button>
@@ -282,7 +284,17 @@
     <span class="orgName">
       <xsl:apply-templates />
     </span>
-  </xsl:template>
+    </xsl:template>
+    <xsl:template match="tei:abbr">
+      <span class="abbr">
+        <xsl:value-of select="." />
+      </span>
+    </xsl:template>
+    <xsl:template match="tei:pc">
+      <span class="pc">
+        <xsl:value-of select="." />
+      </span>
+    </xsl:template>
   <xsl:template match="tei:listPerson">
     <h2>Persone</h2>
     <xsl:element name="ul">

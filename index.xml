@@ -647,10 +647,10 @@
                     chiaro sorriso di fanciullo<pc type="comma">:</pc>così possa confortare anche<corr>voi</corr>e sia<!--  qui errore di battitura a macchina -->
                     <!--  Riga 6  -->
                     <lb xml:id="r6p4" facs="#p4r6" n="6" break="no"/>
-                    per questo mille volte benedetta la Sua memoria!
+                    per questo mille volte benedetta la Sua memoria<pc>!</pc>
                     <!--  Riga 7  -->
                     <lb xml:id="r7p4" facs="#p4r7" n="7" break="yes"/>
-                    Benvenuto Terracini<pc type="period">.</pc>
+                    <persName>Benvenuto Terracini</persName><pc type="period">.</pc>
                 </ab>
             </body>
             <back>
@@ -815,10 +815,10 @@
                 <placeName ref="#TO">Torino<settlement></settlement></placeName>,<date when="1945-6-2">2 Giugno 1945</date>
                 <!-- Riga 3-->
                 <lb xml:id="r3p5" facs="#p5r3" n="3" break="no"/>
-                Cuneo
+                <placeName ref="#CU">Cuneo</placeName>
                 <!-- Riga 4-->
                 <lb xml:id="r4p5" facs="#p5r4" n="4" break="no"/>
-                Via Roma n. 39
+                <placeName>Via Roma n. 39</placeName>
                 <!-- Riga 5-->
                 <lb xml:id="r5p5" facs="#p5r5" n="5" break="no"/>
                 TELEF. 184<!-- Cambio di grafia-->Gentili Signori
@@ -857,7 +857,7 @@
                 deportazione<pc type="period">.</pc> Ebbi molte vicende<pc type="comma">,</pc> come tutti i giovani. Infine<pc type="comma">,</pc>
                 <!-- Riga 17-->
                 <lb xml:id="r17p5" facs="#p5r17" n="17" break="no"/>
-                tra i partigiani conobbi per sommi capi la storia di Lele<pc type="comma">,</pc> che vorrei
+                tra i partigiani conobbi per sommi capi la storia di <abbr>Lele</abbr><pc type="comma">,</pc> che vorrei
                 <!-- Riga 18-->
                 <lb xml:id="r18p5" facs="#p5r18" n="18" break="no"/>
                 meglio conoscere<pc type="period">.</pc> Perciò<pc type="comma">,</pc> quando le cose saranno tornate ad una
@@ -878,22 +878,22 @@
                 qualche giornale<pc type="period">.</pc>
                 <!-- Riga 24-->
                 <lb xml:id="r24p5" facs="#p5r24" n="24" break="no"/>
-                Oggi il prof. Lo Bue(incaricato per Torino del Movimento
+                Oggi il <abbr>prof.</abbr> <persName>Lo Bue</persName>(incaricato per Torino del <orgName>Movimento
                 <!-- Riga 25-->
                 <lb xml:id="r25p5" facs="#p5r25" n="25" break="no"/>
-                Federalista Europeo<pc type="comma">,</pc> via Bertoli 63<pc type="comma">,</pc> telef. 43742) cui ha
+                Federalista Europeo</orgName><pc type="comma">,</pc> <placeName>via Bertoli 63</placeName><pc type="comma">,</pc> <abbr>telef.</abbr> 43742) cui ha
                 <!-- Riga 26-->
                 <lb xml:id="r26p5" facs="#p5r26" n="26" break="no"/>
                 incaricato di consegnare Loro l'acclusa fascetta<pc type="comma">,</pc> informandoLi
                 <!-- Riga 27-->
                 <lb xml:id="r27p5" facs="#p5r27" n="27" break="no"/>
-                che nel Comasco agiva una brigata di partigiani (il
+                che nel <placeName>Comasco</placeName> agiva una brigata di partigiani (il
                 <!-- Riga 28-->
                 <lb xml:id="r28p5" facs="#p5r28" n="28" break="no"/>
-                cui Comando era formato di elementi della val Pellice)<pc type="comma">,</pc>
+                cui Comando era formato di elementi della <placeName>val Pellice</placeName>)<pc type="comma">,</pc>
                 <!-- Riga 29-->
                 <lb xml:id="r29p5" facs="#p5r29" n="29" break="no"/>
-                intestata al nome di Emanuele Artom<pc type="period">.</pc> E' questo il
+                intestata al nome di <persName>Emanuele Artom</persName><pc type="period">.</pc> E' questo il
             </ab>
         </body>
         <back>
