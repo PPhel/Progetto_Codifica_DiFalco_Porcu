@@ -259,29 +259,29 @@
     </xsl:element>
   </xsl:template>
   <xsl:template match="tei:corr">
-    <span class="corr">
+    <div class="corr">
       <xsl:value-of select="." />
-    </span>
+    </div>
   </xsl:template>
   <xsl:template match="tei:orig">
-    <span class="orig" hidden="hidden">
+    <div class="orig">
       <xsl:value-of select="." />
-    </span>
+    </div>
   </xsl:template>
   <xsl:template match="tei:persName">
-    <span class="persName">
+    <div class="persName">
       <xsl:apply-templates />
-    </span>
+    </div>
   </xsl:template>
   <xsl:template match="tei:placeName">
-    <span class="placeName">
+    <div class="placeName">
       <xsl:apply-templates />
-    </span>
+    </div>
   </xsl:template>
   <xsl:template match="tei:orgName">
-    <span class="orgName">
+    <div class="orgName">
       <xsl:apply-templates />
-    </span>
+    </div>
   </xsl:template>
   <xsl:template match="tei:listPerson">
     <h2>Persone</h2>
