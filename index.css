@@ -15,7 +15,7 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
     margin-bottom: 20px;
 }
 
@@ -24,8 +24,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightblue;
-    color:#fff
+    background-color: #33ccff;
+    color:#fff;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -33,9 +34,40 @@ h1, h2, h3 {
     color: #333;
 }
 
-main h1 {
+header h3{
+    color: #333;
+}
+
+main h1, h2, h3 {
     color: #ffffff;
     margin: 0;
+}
+
+img {
+    width: 600px; /* Larghezza fissa */
+    height: auto; /* Altezza proporzionale */
+    max-width: 100%;
+    border: 10px solid #33ccff; /* Bordo sottile */
+}
+
+
+button{
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #003366;
 }
 
 header h3 {
@@ -47,6 +79,11 @@ header h3 {
     color:#333;
     background-color: #ffdd99;
     margin-top: 20px;
+    border-top: 1px solid #ffdd99;
+}
+
+#informazioni h1, #informazioni h2, #informazioni h3{
+    color: #333;
 }
 
 
