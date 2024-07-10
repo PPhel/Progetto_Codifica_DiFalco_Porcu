@@ -44,10 +44,12 @@ main h1, h2, h3 {
 }
 
 img {
-    width: 600px; /* Larghezza fissa */
+    width: 400px; /* Larghezza fissa */
     height: auto; /* Altezza proporzionale */
     max-width: 100%;
-    border: 10px solid #33ccff; /* Bordo sottile */
+    float: left;
+    margin-right: 10px;
+    border: 5px solid #33ccff; /* Bordo sottile */
 }
 
 
