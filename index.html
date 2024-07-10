@@ -589,7 +589,7 @@
                </div>
             </section>
          </section>
-         <nav id="pulsantitesto"><button id="correzioni" type="button">Correzioni</button><button id="paroleparticolari" type="button">Parole Particolari</button><button id="persone" type="button">Persone</button><button id="luoghi" type="button">Luoghi</button><button id="org" type="button">Organizzazioni</button></nav>
+         <nav id="pulsantitesto"><button id="correzioni" type="button" onclick="$(this).corr('span').css('color', 'red')">Correzioni</button><button id="paroleparticolari" type="button">Parole Particolari</button><button id="persone" type="button">Persone</button><button id="luoghi" type="button">Luoghi</button><button id="org" type="button">Organizzazioni</button></nav>
          <section id="informazioni">
             <div id="persone">
                <h2>Persone</h2>
@@ -656,4 +656,5 @@
             </div>
          </section>
       </main>
-   </body><script src="script.js"></script></html>
+   </body>
+</html>
