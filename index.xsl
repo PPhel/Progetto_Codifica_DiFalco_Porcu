@@ -17,7 +17,7 @@
         </title>
         <link href="index.css" rel="stylesheet" type="text/css" />
         <script src="index.js"></script>
-        <!--          <script src="https://code.jquery.com/jquery-3.7.1.js"></script>  -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
       </head>
       <body>
         <header>
