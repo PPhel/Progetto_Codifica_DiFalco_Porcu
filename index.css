@@ -24,32 +24,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.letter-container {
-    background-color: #fff;
-    padding: 20px;
-    width: 700px;
-    max-width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: justify;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.letter-container p {
-    margin: 0 0 15px;
-}
-
-.letter-container p:first-child {
-    text-align: right;
-}
-
-.letter-container p:last-child {
-    margin-bottom: 0;
+    background-color: lightblue;
+    color:#fff
 }
 
 h1, h2, h3 {
@@ -57,14 +33,20 @@ h1, h2, h3 {
     color: #333;
 }
 
-header h1 {
-    font-size: 2em;
+main h1 {
+    color: #ffffff;
     margin: 0;
 }
 
 header h3 {
     font-size: 1.2em;
     margin: 5px 0 0;
+}
+
+#informazioni{
+    color:#333;
+    background-color: #ffdd99;
+    margin-top: 20px;
 }
 
 
