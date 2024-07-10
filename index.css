@@ -27,6 +27,7 @@ main {
     background-color: #33ccff;
     color:#fff;
     font-size: 20px;
+    text-align: left;
 }
 
 h1, h2, h3 {
@@ -44,7 +45,7 @@ main h1, h2, h3 {
 }
 
 img {
-    width: 400px; /* Larghezza fissa */
+    width: 300px; /* Larghezza fissa */
     height: auto; /* Altezza proporzionale */
     max-width: 100%;
     float: left;
